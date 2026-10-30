@@ -1,8 +1,11 @@
-# OmniLens 5.0.3
+# OmniLens 5.0.3 — Universal Data Intelligence Platform
 
-**Upload a file. Get the answer. Know what to do next. Share it.**
+**🌐 Live Demo:** [https://omni-lens-sepia.vercel.app/](https://omni-lens-sepia.vercel.app/)
 
-OmniLens is a plain-language data understanding tool for people who do not want to learn spreadsheets, statistics or programming just to get an answer from a file. It is designed around the shape of the data, not a choice of business sector.
+> **"Your data. Clear answers. Better decisions."**  
+> Plain-language data understanding tool designed to help anyone turn raw spreadsheets and records into evidence-backed findings and actionable decisions without technical skills.
+
+---
 
 The default experience is deliberately small: one upload box, four synthetic examples grouped into Government, Business and Personal use, a short result, a few charts, a small number of findings, next steps, Ask a question, Fix these for me, Share and Compare. Technical details remain behind an optional disclosure.
 
@@ -245,4 +248,15 @@ The user interface has been redesigned with a warm, Starbucks-inspired premium v
 - **Hero & Interactive Preview**: Visual hero layout matching the reference mockup, featuring a live interactive preview card with segmented tabs (*Key Finding*, *Ask OmniLens*, and *Quick Trend* Recharts preview).
 - **Tabbed Dashboard**: When a dataset is analyzed, a sticky tabbed navigation provides structured access to *Overview*, *Explore Charts*, *Findings*, *Ask Your Data*, *Data Quality*, and *Reports & Compare*.
 - **Integrity**: All backend features (file upload, Q&A, evidence modal, live cleaning preview, PDF/Word/WhatsApp export, file comparison, multi-language EN/HI/MR, and accessibility controls A+/HC) remain preserved.
+
+## Cloud Deployment (Vercel + Render)
+
+- **Frontend (Vercel)**: [https://omni-lens-sepia.vercel.app/](https://omni-lens-sepia.vercel.app/)
+  - Framework: Vite / React 18
+  - Configuration: `frontend/vercel.json` SPA rewrite rules
+- **Backend (Render)**:
+  - Framework: FastAPI / Python 3.11+
+  - Web Service start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
+  - Configuration: `render.yaml` with open CORS for the frontend app
+
 
