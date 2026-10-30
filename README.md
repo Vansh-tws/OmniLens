@@ -1,4 +1,4 @@
-# OmniLens 5.0.3 — Universal Data Intelligence Platform
+# OmniLens— Universal Data Intelligence Platform
 
 **🌐 Live Demo:** [https://omni-lens-sepia.vercel.app/](https://omni-lens-sepia.vercel.app/)
 
