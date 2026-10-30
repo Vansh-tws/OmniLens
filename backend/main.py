@@ -1689,8 +1689,11 @@ def answer_question(df: pd.DataFrame, shape: dict[str, Any], question: str) -> d
             if not descending: grouped = grouped.sort_values(ascending=True)
             top_key, top_value = grouped.index[0], float(grouped.iloc[0])
             chart = {"title": f"{group} comparison", "labels": [str(x) for x in grouped.head(8).index], "values": [float(x) for x in grouped.head(8).values]}
+            rank_str = "highest" if descending else "lowest"
+            measure_str = f"total for {measure}" if measure else "number of matching records"
+            unit_str = " in the file's units" if measure else " records"
             return answer_payload(
-                f"{top_key} has the {'highest' if descending else 'lowest'} {'total for ' + measure if measure else 'number of matching records'}{filter_note} The value is {top_value:,.2f}{' in the file\'s units' if measure else ' records'}.",
+                f"{top_key} has the {rank_str} {measure_str}{filter_note} The value is {top_value:,.2f}{unit_str}.",
                 method + filter_note, [{"group": str(k), "value": round(float(v), 2)} for k, v in grouped.head(10).items()],
                 row_ids, "This tells us where the uploaded records are concentrated. It does not explain the cause.", chart)
     # Totals / average.
