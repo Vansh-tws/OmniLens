@@ -1,0 +1,301 @@
+﻿Case ID,Incident Date,District,Police Station,Crime Category,Severity,Case Status,Reported Through,Case Count,Investigation Days,Estimated Property Loss (INR)
+DEMO-CR-00001,04/01/2025,Nagpur,Sadar,Fraud,Low,Closed,Citizen portal,1,36.0,77809.03
+DEMO-CR-00002,09-01-2025,Satara,Satara City,Theft,Medium,Closed,Helpline,1,59.0,39246.95
+DEMO-CR-00003,14.01.2025,Mumbai Suburban,Andheri,Assault,High,Under investigation,Police station,1,12.0,9475.55
+DEMO-CR-00004,2025-01-19,Nashik,Gangapur,Theft,Low,Under investigation,Emergency call,1,49.0,49901.28
+DEMO-CR-00005,2025-01-24,Pune City,Hadapsar,Theft,Medium,Under investigation,Citizen portal,1,61.0,54885.8
+DEMO-CR-00006,01/01/2025,Mumbai Suburban,Kurla,Theft,Medium,Under investigation,Helpline,1,19.0,27343.34
+DEMO-CR-00007,06-01-2025,Kolhapur,Rajwada,Public Disturbance,Medium,Under investigation,Police station,1,67.0,912.24
+DEMO-CR-00008,11.01.2025,Mumbai Suburban,Andheri,Theft,Medium,Closed,Emergency call,1,36.0,61565.53
+DEMO-CR-00009,2025-01-16,Thane,Vartak Nagar,Vehicle Theft,High,Closed,Citizen portal,1,27.0,92556.45
+DEMO-CR-00010,2025-01-21,Kolhapur,Shahupuri,Cybercrime,Low,Pending,Helpline,1,12.0,114229.22
+DEMO-CR-00011,26/01/2025,Pune City,Hadapsar,Cybercrime,Low,Closed,Police station,1,17.0,65966.11
+DEMO-CR-00012,03-01-2025,Kolhapur,Rajarampuri,Fraud,Medium,Pending,Emergency call,1,39.0,163136.4
+DEMO-CR-00013,08.01.2025,Satara,Karad,Vehicle Theft,High,Closed,Citizen portal,1,34.0,205206.92
+DEMO-CR-00014,2025-01-13,Nashik,Panchavati,Cybercrime,Low,Under investigation,Helpline,1,58.0,53961.42
+DEMO-CR-00015,2025-01-18,Kolhapur,Rajwada,Public Disturbance,Medium,Closed,Police station,1,,4370.59
+DEMO-CR-00016,23/01/2025,Pune City,Kothrud,Fraud,Low,Under investigation,Emergency call,1,20.0,15644.73
+DEMO-CR-00017,28-01-2025,Nagpur,Sadar,Vehicle Theft,Medium,Closed,Citizen portal,1,8.0,133175.87
+DEMO-CR-00018,05.01.2025,Ahmednagar,MIDC,Theft,High,Closed,Helpline,1,17.0,23167.23
+DEMO-CR-00019,2025-01-10,Mumbai Suburban,Kurla,Cybercrime,Medium,Closed,Police station,1,16.0,51215.33
+DEMO-CR-00020,2025-01-15,Thane,Kopri,Theft,Low,Closed,Emergency call,1,36.0,17272.81
+DEMO-CR-00021,07/02/2025,Thane,Vartak Nagar,Vehicle Theft,High,Under investigation,Helpline,1,35.0,120059.77
+DEMO-CR-00022,12-02-2025,Mumbai Suburban,Borivali,Theft,High,Closed,Police station,1,26.0,27915.11
+DEMO-CR-00023,17.02.2025,Nagpur,Sadar,Burglary,Low,Closed,Emergency call,1,40.0,82991.71
+DEMO-CR-00024,2025-02-22,Ahmednagar,Toufkhana,Fraud,Low,Under investigation,Citizen portal,1,46.0,118789.52
+DEMO-CR-00025,2025-02-27,Mumbai Suburban,Kurla,Vehicle Theft,Medium,Closed,Helpline,1,6.0,226285.91
+DEMO-CR-00026,04/02/2025,Nashik,Gangapur,Burglary,Low,Closed,Police station,1,13.0,102125.72
+DEMO-CR-00027,09-02-2025,Pune City,Hadapsar,Theft,Medium,Under investigation,Emergency call,1,42.0,32068.64
+DEMO-CR-00028,14.02.2025,Nashik,Gangapur,Public Disturbance,Medium,Closed,Citizen portal,1,46.0,3675.68
+DEMO-CR-00029,2025-02-19,Kolhapur,Rajwada,Fraud,Medium,Under investigation,Helpline,1,14.0,131469.87
+DEMO-CR-00030,2025-02-24,Ahmednagar,MIDC,Fraud,Medium,Closed,Police station,1,46.0,106679.68
+DEMO-CR-00031,01/02/2025,Thane,Kopri,Public Disturbance,Low,Under investigation,Emergency call,1,18.0,2646.07
+DEMO-CR-00032,06-02-2025,Satara,Karad,Vehicle Theft,Medium,Pending,Citizen portal,1,33.0,46896.43
+DEMO-CR-00033,11.02.2025,Nagpur,Mankapur,Theft,High,Closed,Helpline,1,31.0,21383.01
+DEMO-CR-00034,2025-02-16,Kolhapur,Rajarampuri,Public Disturbance,Medium,Closed,Police station,1,23.0,3686.41
+DEMO-CR-00035,2025-02-21,Pune City,Kothrud,Fraud,Low,Under investigation,Emergency call,1,13.0,140284.32
+DEMO-CR-00036,26/02/2025,Nashik,Gangapur,Burglary,Medium,Closed,Citizen portal,1,49.0,23108.96
+DEMO-CR-00037,03-02-2025,Satara,Wai,Theft,Low,Pending,Helpline,1,45.0,43222.12
+DEMO-CR-00038,08.02.2025,Ahmednagar,MIDC,Cybercrime,Low,Pending,Police station,1,28.0,83501.0
+DEMO-CR-00039,2025-02-13,Nagpur,Sadar,Theft,Medium,Closed,Emergency call,1,23.0,33296.17
+DEMO-CR-00040,2025-02-18,Ahmednagar,MIDC,Burglary,Medium,Closed,Citizen portal,1,18.0,97665.93
+DEMO-CR-00041,23/02/2025,Mumbai Suburban,Andheri,Vehicle Theft,Medium,Closed,Helpline,1,44.0,43495.18
+DEMO-CR-00042,10-03-2025,Ahmednagar,Kotwali,Theft,Medium,Closed,Emergency call,1,37.0,55529.58
+DEMO-CR-00043,15.03.2025,Nashik,Ambad,Fraud,Low,Closed,Citizen portal,1,21.0,167128.36
+DEMO-CR-00044,2025-03-20,Satara,Karad,Theft,Low,Pending,Helpline,1,64.0,40590.47
+DEMO-CR-00045,2025-03-25,Ahmednagar,MIDC,Cybercrime,Medium,Closed,Police station,1,72.0,179107.82
+DEMO-CR-00046,02/03/2025,Nagpur,Sitabuldi,Assault,Medium,Closed,Emergency call,1,69.0,6617.86
+DEMO-CR-00047,07-03-2025,Kolhapur,Rajwada,Assault,High,Closed,Citizen portal,1,,14626.56
+DEMO-CR-00048,12.03.2025,Nagpur,Mankapur,Cybercrime,Medium,Closed,Helpline,1,29.0,89637.35
+DEMO-CR-00049,2025-03-17,Nashik,Ambad,Cybercrime,Medium,Under investigation,Police station,1,35.0,112367.28
+DEMO-CR-00050,2025-03-22,Ahmednagar,Toufkhana,Vehicle Theft,Medium,Closed,Emergency call,1,53.0,77908.82
+DEMO-CR-00051,27/03/2025,Nashik,Ambad,Assault,Medium,Closed,Citizen portal,1,55.0,6598.09
+DEMO-CR-00052,04-03-2025,Kolhapur,Rajarampuri,Burglary,Medium,Under investigation,Helpline,1,10.0,44992.49
+DEMO-CR-00053,09.03.2025,Mumbai Suburban,Andheri,Cybercrime,Medium,Closed,Police station,1,17.0,177118.69
+DEMO-CR-00054,2025-03-14,Nashik,Gangapur,Theft,Medium,Under investigation,Emergency call,1,11.0,29182.02
+DEMO-CR-00055,2025-03-19,Kolhapur,Rajarampuri,Assault,Medium,Closed,Citizen portal,1,27.0,6693.16
+DEMO-CR-00056,24/03/2025,Mumbai Suburban,Borivali,Vehicle Theft,Medium,Under investigation,Helpline,1,19.0,78986.66
+DEMO-CR-00057,01-03-2025,Nashik,Gangapur,Burglary,Low,Closed,Police station,1,12.0,109759.23
+DEMO-CR-00058,06.03.2025,Pune City,Hadapsar,Cybercrime,Medium,Pending,Emergency call,1,3.0,34690.64
+DEMO-CR-00059,2025-03-11,Nagpur,Mankapur,Theft,Low,Closed,Citizen portal,1,66.0,1393.9
+DEMO-CR-00060,2025-03-16,Thane,Vartak Nagar,Theft,High,Closed,Helpline,1,25.0,63309.22
+DEMO-CR-00061,21/03/2025,Mumbai Suburban,Borivali,Fraud,Low,Closed,Police station,1,41.0,44744.03
+DEMO-CR-00062,26-03-2025,Thane,Naupada,Theft,Medium,Under investigation,Emergency call,1,56.0,42930.11
+DEMO-CR-00063,03.03.2025,Ahmednagar,Kotwali,Cybercrime,High,Under investigation,Citizen portal,1,33.0,60509.81
+DEMO-CR-00064,2025-04-13,Mumbai Suburban,Kurla,Vehicle Theft,Medium,Closed,Police station,1,41.0,153838.69
+DEMO-CR-00065,2025-04-18,Nashik,Ambad,Public Disturbance,High,Under investigation,Emergency call,1,33.0,3599.84
+DEMO-CR-00066,23/04/2025,Pune City,Hadapsar,Vehicle Theft,Medium,Closed,Citizen portal,1,14.0,29757.97
+DEMO-CR-00067,28-04-2025,Nagpur,Mankapur,Vehicle Theft,High,Closed,Helpline,1,23.0,128307.87
+DEMO-CR-00068,05.04.2025,Satara,Satara City,Public Disturbance,Medium,Closed,Police station,1,16.0,4303.32
+DEMO-CR-00069,2025-04-10,Ahmednagar,Kotwali,Theft,High,Closed,Emergency call,1,42.0,12928.79
+DEMO-CR-00070,2025-04-15,Nashik,Panchavati,Vehicle Theft,Low,Closed,Citizen portal,1,36.0,39131.81
+DEMO-CR-00071,20/04/2025,Ahmednagar,Toufkhana,Fraud,Low,Closed,Helpline,1,24.0,71215.14
+DEMO-CR-00072,25-04-2025,Mumbai Suburban,Kurla,Cybercrime,High,Closed,Police station,1,51.0,50021.3
+DEMO-CR-00073,02.04.2025,Nashik,Gangapur,Burglary,Medium,Closed,Emergency call,1,11.0,47814.88
+DEMO-CR-00074,2025-04-07,Ahmednagar,Kotwali,Assault,Medium,Closed,Citizen portal,1,12.0,8807.2
+DEMO-CR-00075,2025-04-12,Mumbai Suburban,Kurla,Fraud,Medium,Under investigation,Helpline,1,51.0,128398.34
+DEMO-CR-00076,17/04/2025,Satara,Satara City,Assault,Medium,Closed,Police station,1,28.0,4445.44
+DEMO-CR-00077,22-04-2025,Mumbai Suburban,Borivali,Vehicle Theft,High,Closed,Emergency call,1,63.0,190975.6
+DEMO-CR-00078,27.04.2025,Thane,Naupada,Burglary,Low,Closed,Citizen portal,1,40.0,90939.07
+DEMO-CR-00079,2025-04-04,Satara,Wai,Assault,High,Under investigation,Helpline,1,36.0,8988.84
+DEMO-CR-00080,2025-04-09,Pune City,Shivajinagar,Cybercrime,Medium,Under investigation,Police station,1,45.0,109183.98
+DEMO-CR-00081,14/04/2025,Nashik,Panchavati,Cybercrime,Low,Closed,Emergency call,1,20.0,63935.36
+DEMO-CR-00082,19-04-2025,Pune City,Shivajinagar,Vehicle Theft,Low,Under investigation,Citizen portal,1,12.0,35525.51
+DEMO-CR-00083,24.04.2025,Nashik,Gangapur,Burglary,Low,Closed,Helpline,1,48.0,57398.29
+DEMO-CR-00084,2025-04-01,Satara,Karad,Vehicle Theft,Low,Closed,Police station,1,15.0,170768.57
+DEMO-CR-00085,2025-04-06,Pune City,Hadapsar,Public Disturbance,Medium,Pending,Emergency call,1,46.0,2862.76
+DEMO-CR-00086,11/04/2025,Thane,Naupada,Theft,Medium,Closed,Citizen portal,1,36.0,43047.09
+DEMO-CR-00087,16-05-2025,Thane,Vartak Nagar,Fraud,Medium,Closed,Police station,1,17.0,82314.09
+DEMO-CR-00088,21.05.2025,Satara,Wai,Cybercrime,Low,Closed,Emergency call,1,43.0,40081.59
+DEMO-CR-00089,2025-05-26,Pune City,Shivajinagar,public disturbance,Medium,Under investigation,Citizen portal,1,40.0,949.37
+DEMO-CR-00090,2025-05-03,Thane,Vartak Nagar,Theft,Medium,Closed,Helpline,1,22.0,49943.64
+DEMO-CR-00091,08/05/2025,Ahmednagar,Toufkhana,Public Disturbance,Medium,Pending,Police station,1,42.0,4834.73
+DEMO-CR-00092,13-05-2025,Nagpur,Mankapur,Assault,Low,Closed,Emergency call,1,35.0,10682.14
+DEMO-CR-00093,18.05.2025,Kolhapur,Rajwada,Burglary,Medium,Closed,Citizen portal,1,11.0,90689.71
+DEMO-CR-00094,2025-05-23,Ahmednagar,Toufkhana,Fraud,Low,Closed,Helpline,1,,206049.04
+DEMO-CR-00095,2025-05-28,Thane,Naupada,Public Disturbance,High,Pending,Police station,1,26.0,2197.76
+DEMO-CR-00096,05/05/2025,Ahmednagar,Toufkhana,Assault,High,Closed,Emergency call,1,12.0,1110.17
+DEMO-CR-00097,10-05-2025,Mumbai Suburban,Borivali, Vehicle Theft ,Medium,Pending,Citizen portal,1,51.0,163420.85
+DEMO-CR-00098,15.05.2025,Thane,Naupada,Fraud,Medium,Pending,Helpline,1,11.0,76261.87
+DEMO-CR-00099,2025-05-20,Ahmednagar,MIDC,Assault,High,Under investigation,Police station,1,25.0,11310.25
+DEMO-CR-00100,2025-05-25,Mumbai Suburban,Kurla,Cybercrime,Low,Closed,Emergency call,1,15.0,115599.1
+DEMO-CR-00101,02/05/2025,Kolhapur,Rajwada,Theft,Low,Under investigation,Citizen portal,1,31.0,27753.27
+DEMO-CR-00102,07-05-2025,Ahmednagar,Toufkhana,Burglary,High,Closed,Helpline,1,16.0,65846.39
+DEMO-CR-00103,12.05.2025,Nagpur,Sadar,Cybercrime,High,Closed,Police station,1,33.0,157756.88
+DEMO-CR-00104,2025-05-17,Satara,Karad,Cybercrime,Low,Under investigation,Emergency call,1,37.0,11237.68
+DEMO-CR-00105,2025-05-22,Pune City,Shivajinagar,Fraud,High,Under investigation,Citizen portal,1,15.0,78187.59
+DEMO-CR-00106,27/05/2025,Thane,Vartak Nagar,Fraud,Low,Closed,Helpline,1,35.0,206469.47
+DEMO-CR-00107,04-05-2025,Pune City,Hadapsar,Public Disturbance,High,Closed,Police station,1,26.0,904.9
+DEMO-CR-00108,09.05.2025,Nashik,Ambad,Burglary,Medium,Closed,Emergency call,1,7.0,28338.28
+DEMO-CR-00109,2025-06-19,Satara,Karad,Burglary,Medium,Closed,Helpline,1,11.0,99995.86
+DEMO-CR-00110,2025-06-24,Mumbai Suburban,Borivali,Theft,Medium,Closed,Police station,1,51.0,52615.66
+DEMO-CR-00111,01/06/2025,Nashik,Ambad,Cybercrime,Low,Pending,Emergency call,1,33.0,15105.26
+DEMO-CR-00112,06-06-2025,Satara,Wai,Public Disturbance,Low,Pending,Citizen portal,1,35.0,1989.94
+DEMO-CR-00113,11.06.2025,Pune City,Kothrud,Theft,Low,Under investigation,Helpline,1,13.0,3822.07
+DEMO-CR-00114,2025-06-16,Kolhapur,Shahupuri,Fraud,Medium,Closed,Police station,1,,208395.19
+DEMO-CR-00115,2025-06-21,Satara,Wai,Assault,Low,Closed,Emergency call,1,31.0,8348.62
+DEMO-CR-00116,26/06/2025,Nagpur,Sitabuldi,Fraud,High,Pending,Citizen portal,1,13.0,84445.78
+DEMO-CR-00117,03-06-2025,Thane,Kopri,Theft,Medium,Closed,Helpline,1,16.0,58997.38
+DEMO-CR-00118,08.06.2025,Ahmednagar,Toufkhana,Vehicle Theft,Medium,Under investigation,Police station,1,42.0,105809.71
+DEMO-CR-00119,2025-06-13,Nagpur,Sadar,Assault,Medium,Closed,Emergency call,1,17.0,2958.46
+DEMO-CR-00120,2025-06-18,Satara,Karad,Fraud,High,Under investigation,Citizen portal,1,26.0,137606.51
+DEMO-CR-00121,23/06/2025,Mumbai Suburban,Borivali,Vehicle Theft,Medium,Under investigation,Helpline,1,36.0,148126.97
+DEMO-CR-00122,28-06-2025,Thane,Vartak Nagar,Cybercrime,High,Closed,Police station,1,16.0,105353.1
+DEMO-CR-00123,05.06.2025,Satara,Karad,Public Disturbance,Medium,Closed,Emergency call,1,24.0,1123.09
+DEMO-CR-00124,2025-06-10,Nagpur,Mankapur,Fraud,Medium,Closed,Citizen portal,1,43.0,124078.13
+DEMO-CR-00125,2025-06-15,Satara,Wai,Theft,Medium,Under investigation,Helpline,1,8.0,3504.94
+DEMO-CR-00126,20/06/2025,Pune City,Shivajinagar,Vehicle Theft,Medium,Under investigation,Police station,1,63.0,184380.18
+DEMO-CR-00127,25-06-2025,Nashik,Gangapur,Assault,Medium,Under investigation,Emergency call,1,26.0,2321.29
+DEMO-CR-00128,02.06.2025,Ahmednagar,MIDC,Public Disturbance,Low,Closed,Citizen portal,1,15.0,454.14
+DEMO-CR-00129,2025-06-07,Nagpur,Sitabuldi,Assault,Low,Under investigation,Helpline,1,64.0,8613.9
+DEMO-CR-00130,2025-06-12,Nashik,Panchavati,Assault,Low,Closed,Police station,1,18.0,8074.93
+DEMO-CR-00131,17/06/2025,Pune City,Hadapsar,Vehicle Theft,High,Closed,Emergency call,1,42.0,150837.1
+DEMO-CR-00132,22-06-2025,Nagpur,Sadar,Theft,Medium,Closed,Citizen portal,1,20.0,50208.93
+DEMO-CR-00133,22.07.2025,Ahmednagar,Kotwali,Burglary,High,Closed,Police station,1,46.0,65923.26
+DEMO-CR-00134,2025-07-27,Nagpur,Sadar,Cybercrime,Low,Closed,Emergency call,1,57.0,85303.85
+DEMO-CR-00135,2025-07-04,Thane,Kopri,Vehicle Theft,High,Under investigation,Citizen portal,1,11.0,213279.38
+DEMO-CR-00136,09/07/2025,Ahmednagar,Kotwali,Cybercrime,High,Pending,Helpline,1,42.0,19244.53
+DEMO-CR-00137,14-07-2025,Thane,Kopri,Vehicle Theft,Medium,Under investigation,Police station,1,25.0,64180.93
+DEMO-CR-00138,19.07.2025,Satara,Karad,Theft,Medium,Closed,Emergency call,1,35.0,15427.72
+DEMO-CR-00139,2025-07-24,Pune City,Kothrud,Theft,Medium,Closed,Citizen portal,1,63.0,39089.42
+DEMO-CR-00140,2025-07-01,Nashik,Panchavati,Public Disturbance,Low,Under investigation,Helpline,1,25.0,1634.0
+DEMO-CR-00141,06/07/2025,Satara,Karad,Theft,Medium,Under investigation,Police station,1,,33137.62
+DEMO-CR-00142,11-07-2025,Nashik,Ambad,Assault,Low,Closed,Emergency call,1,22.0,13117.37
+DEMO-CR-00143,16.07.2025,Thane,Kopri,Vehicle Theft,Medium,Closed,Citizen portal,1,48.0,83971.85
+DEMO-CR-00144,2025-07-21,Mumbai Suburban,Andheri,Fraud,Medium,Closed,Helpline,1,58.0,138386.89
+DEMO-CR-00145,2025-07-26,Nagpur,Sitabuldi,Cybercrime,Low,Closed,Police station,1,14.0,73364.63
+DEMO-CR-00146,03/07/2025,Satara,Karad,Theft,Medium,Under investigation,Emergency call,1,20.0,17521.13
+DEMO-CR-00147,08-07-2025,Mumbai Suburban,Kurla,Theft,Medium,Closed,Citizen portal,1,19.0,13130.91
+DEMO-CR-00148,13.07.2025,Thane,Naupada,Fraud,Low,Closed,Helpline,1,40.0,50433.59
+DEMO-CR-00149,2025-07-18,Satara,Karad,Theft,Low,Closed,Police station,1,30.0,26573.04
+DEMO-CR-00150,2025-07-23,Nashik,Panchavati,Assault,Low,Closed,Emergency call,1,60.0,4369.31
+DEMO-CR-00151,28/07/2025,Kolhapur,Shahupuri,Theft,Medium,Closed,Citizen portal,1,33.0,50971.71
+DEMO-CR-00152,05-07-2025,Pune City,Kothrud,Fraud,Low,Closed,Helpline,1,55.0,158851.81
+DEMO-CR-00153,10.07.2025,Nagpur,Sadar,Assault,Medium,Closed,Police station,1,20.0,12586.17
+DEMO-CR-00154,2025-07-15,Kolhapur,Rajarampuri,Vehicle Theft,High,Closed,Emergency call,1,38.0,156102.2
+DEMO-CR-00155,2025-07-20,Nagpur,Mankapur,Cybercrime,Medium,Under investigation,Citizen portal,1,49.0,128668.53
+DEMO-CR-00156,25/07/2025,Thane,Kopri,Theft,Medium,Under investigation,Helpline,1,17.0,35776.27
+DEMO-CR-00157,02-07-2025,Satara,Satara City,Theft,High,Closed,Police station,1,23.0,58320.0
+DEMO-CR-00158,07.07.2025,Nashik,Panchavati,Theft,Medium,Under investigation,Emergency call,1,23.0,60873.86
+DEMO-CR-00159,2025-07-12,Kolhapur,Rajwada,Burglary,Medium,Under investigation,Citizen portal,1,8.0,48413.32
+DEMO-CR-00160,2025-08-25,Pune City,Shivajinagar,Public Disturbance,Low,Under investigation,Police station,1,39.0,267.4
+DEMO-CR-00161,02/08/2025,Nashik,Panchavati,Assault,High,Closed,Emergency call,1,59.0,14169.57
+DEMO-CR-00162,07-08-2025,Satara,Wai,Burglary,Low,Pending,Citizen portal,1,66.0,44923.5
+DEMO-CR-00163,12.08.2025,Mumbai Suburban,Borivali,Theft,Medium,Under investigation,Helpline,1,18.0,18303.25
+DEMO-CR-00164,2025-08-17,Satara,Wai,Burglary,Medium,Under investigation,Police station,1,41.0,54719.84
+DEMO-CR-00165,2025-08-22,Ahmednagar,Toufkhana,Cybercrime,Low,Closed,Emergency call,1,32.0,150296.23
+DEMO-CR-00166,27/08/2025,Nagpur,Sitabuldi,Burglary,High,Closed,Citizen portal,1,16.0,25933.02
+DEMO-CR-00167,04-08-2025,Kolhapur,Shahupuri,Vehicle Theft,High,Closed,Helpline,1,13.0,213533.77
+DEMO-CR-00168,09.08.2025,Mumbai Suburban,Kurla,Theft,Low,Closed,Police station,1,19.0,10958.72
+DEMO-CR-00169,2025-08-14,Kolhapur,Rajarampuri,Public Disturbance,Low,Under investigation,Emergency call,1,34.0,1726.88
+DEMO-CR-00170,2025-08-19,Pune City,Hadapsar,Public Disturbance,Medium,Under investigation,Citizen portal,1,57.0,1026.84
+DEMO-CR-00171,24/08/2025,Nagpur,Mankapur,Theft,Low,Closed,Helpline,1,20.0,14427.66
+DEMO-CR-00172,01-08-2025,Thane,Kopri,Theft,Low,Under investigation,Police station,1,28.0,43107.34
+DEMO-CR-00173,06.08.2025,Pune City,Kothrud,Assault,Low,Closed,Emergency call,1,30.0,4080.96
+DEMO-CR-00174,2025-08-11,Thane,Naupada,Burglary,Low,Closed,Citizen portal,1,61.0,118781.43
+DEMO-CR-00175,2025-08-16,Satara,Karad,Assault,Low,Under investigation,Helpline,1,44.0,12038.22
+DEMO-CR-00176,21/08/2025,Nagpur,Mankapur,Burglary,High,Closed,Police station,1,14.0,6951.25
+DEMO-CR-00177,26-08-2025,Thane,Kopri,Vehicle Theft,High,Under investigation,Emergency call,1,48.0,209436.83
+DEMO-CR-00178,03.08.2025,Pune City,Kothrud,burglary,Medium,Closed,Citizen portal,1,35.0,16424.82
+DEMO-CR-00179,2025-08-08,Mumbai Suburban,Borivali,Cybercrime,Low,Closed,Helpline,1,52.0,120297.88
+DEMO-CR-00180,2025-08-13,Satara,Wai,Vehicle Theft,High,Pending,Police station,1,14.0,165227.08
+DEMO-CR-00181,18/08/2025,Mumbai Suburban,Andheri,Theft,High,Closed,Emergency call,1,46.0,62788.74
+DEMO-CR-00182,23-08-2025,Thane,Naupada,Theft,Medium,Closed,Citizen portal,1,44.0,58979.0
+DEMO-CR-00183,28.08.2025,Ahmednagar,MIDC,Cybercrime,Medium,Under investigation,Helpline,1,19.0,27244.27
+DEMO-CR-00184,2025-08-05,Mumbai Suburban,Kurla,Cybercrime,Medium,Pending,Police station,1,18.0,133641.32
+DEMO-CR-00185,2025-08-10,Thane,Vartak Nagar,Theft,Medium,Closed,Emergency call,1,14.0,12420.37
+DEMO-CR-00186,15/08/2025,Pune City,Hadapsar,Theft,Low,Pending,Citizen portal,1,26.0,20660.17
+DEMO-CR-00187,20-08-2025,Nagpur,Mankapur,Theft,Low,Closed,Helpline,1,18.0,4449.53
+DEMO-CR-00188,28.09.2025,Nashik,Panchavati,Fraud,Medium,Closed,Emergency call,1,,112375.2
+DEMO-CR-00189,2025-09-05,Satara,Satara City,Vehicle Theft,Medium,Under investigation,Citizen portal,1,11.0,208116.77
+DEMO-CR-00190,2025-09-10,Pune City,Kothrud,Assault,Medium,Closed,Helpline,1,42.0,9123.56
+DEMO-CR-00191,15/09/2025,Thane,Kopri,Vehicle Theft,High,Closed,Police station,1,30.0,216359.96
+DEMO-CR-00192,20-09-2025,Satara,Karad,Assault,Medium,Closed,Emergency call,1,10.0,7206.57
+DEMO-CR-00193,25.09.2025,Mumbai Suburban,Borivali,Theft,Low,Under investigation,Citizen portal,1,43.0,44785.16
+DEMO-CR-00194,2025-09-02,Kolhapur,Shahupuri, Vehicle Theft ,Medium,Closed,Helpline,1,46.0,145910.42
+DEMO-CR-00195,2025-09-07,Pune City,Hadapsar,Assault,Medium,Closed,Police station,1,30.0,7133.06
+DEMO-CR-00196,12/09/2025,Thane,Naupada,Cybercrime,Low,Closed,Emergency call,1,40.0,21190.1
+DEMO-CR-00197,17-09-2025,Satara,Karad,Cybercrime,Medium,Closed,Citizen portal,1,6.0,41323.51
+DEMO-CR-00198,22.09.2025,Nagpur,Sitabuldi,Fraud,Medium,Closed,Helpline,1,25.0,15984.51
+DEMO-CR-00199,2025-09-27,Nashik,Gangapur,Theft,Medium,Under investigation,Police station,1,37.0,9145.22
+DEMO-CR-00200,2025-09-04,Satara,Karad,Burglary,Medium,Closed,Emergency call,1,16.0,27169.98
+DEMO-CR-00201,09/09/2025,Nagpur,Sitabuldi,Cybercrime,Low,Closed,Citizen portal,1,27.0,104590.87
+DEMO-CR-00202,14-09-2025,Thane,Naupada,Burglary,Medium,Closed,Helpline,1,12.0,85485.24
+DEMO-CR-00203,19.09.2025,Pune City,Shivajinagar,Vehicle Theft,Medium,Pending,Police station,1,29.0,120260.93
+DEMO-CR-00204,2025-09-24,Thane,Naupada,Fraud,Medium,Pending,Emergency call,1,46.0,84457.8
+DEMO-CR-00205,2025-09-01,Kolhapur,Shahupuri,Burglary,High,Closed,Citizen portal,1,30.0,10549.24
+DEMO-CR-00206,06/09/2025,Nagpur,Sitabuldi,Public Disturbance,Medium,Pending,Helpline,1,53.0,3576.98
+DEMO-CR-00207,11-09-2025,Thane,Kopri,Burglary,Low,Closed,Police station,1,25.0,5102.38
+DEMO-CR-00208,16.09.2025,Satara,Wai,Cybercrime,Medium,Closed,Emergency call,1,40.0,172521.6
+DEMO-CR-00209,2025-09-21,Mumbai Suburban,Kurla,Vehicle Theft,High,Closed,Citizen portal,1,53.0,89879.24
+DEMO-CR-00210,2025-09-26,Thane,Kopri,Cybercrime,Medium,Closed,Helpline,1,42.0,147414.69
+DEMO-CR-00211,03/09/2025,Pune City,Hadapsar,Cybercrime,Medium,Under investigation,Police station,1,14.0,46100.43
+DEMO-CR-00212,08-09-2025,Nagpur,Sadar,Theft,Medium,Under investigation,Emergency call,1,21.0,59720.29
+DEMO-CR-00213,13.09.2025,Satara,Karad,Public Disturbance,High,Closed,Citizen portal,1,15.0,4318.44
+DEMO-CR-00214,2025-09-18,Nagpur,Mankapur,Assault,Low,Under investigation,Helpline,1,14.0,233.28
+DEMO-CR-00215,2025-09-23,Thane,Kopri,Theft,Low,Pending,Police station,1,46.0,58639.02
+DEMO-CR-00216,28/09/2025,Satara,Wai,Fraud,Medium,Closed,Emergency call,1,34.0,99498.53
+DEMO-CR-00217,05-09-2025,Nagpur,Mankapur,Theft,Low,Closed,Citizen portal,1,20.0,31615.39
+DEMO-CR-00218,10.09.2025,Thane,Naupada,Theft,Low,Closed,Helpline,1,28.0,36244.04
+DEMO-CR-00219,2025-10-03,Thane,Naupada,Cybercrime,Medium,Pending,Emergency call,1,32.0,123851.75
+DEMO-CR-00220,2025-10-08,Mumbai Suburban,Borivali,Fraud,Low,Closed,Citizen portal,1,46.0,72857.17
+DEMO-CR-00221,13/10/2025,Nagpur,Sitabuldi,Public Disturbance,Low,Under investigation,Helpline,1,21.0,2416.88
+DEMO-CR-00222,18-10-2025,Ahmednagar,Toufkhana,Burglary,Low,Under investigation,Police station,1,10.0,38222.02
+DEMO-CR-00223,23.10.2025,Mumbai Suburban,Kurla,Fraud,Low,Closed,Emergency call,1,42.0,78920.7
+DEMO-CR-00224,2025-10-28,Nashik,Panchavati,Cybercrime,High,Closed,Citizen portal,1,18.0,72185.28
+DEMO-CR-00225,2025-10-05,Satara,Wai,Cybercrime,High,Under investigation,Helpline,1,5.0,111039.89
+DEMO-CR-00226,10/10/2025,Nashik,Gangapur,Public Disturbance,Low,Closed,Police station,1,44.0,3927.18
+DEMO-CR-00227,15-10-2025,Satara,Karad,Burglary,High,Closed,Emergency call,1,13.0,35624.72
+DEMO-CR-00228,20.10.2025,Pune City,Shivajinagar,Burglary,Medium,Closed,Citizen portal,1,15.0,56692.9
+DEMO-CR-00229,2025-10-25,Thane,Naupada,Theft,Low,Closed,Helpline,1,69.0,25222.4
+DEMO-CR-00230,2025-10-02,Ahmednagar,Toufkhana,Fraud,Medium,Closed,Police station,1,28.0,5501.63
+DEMO-CR-00231,07/10/2025,Mumbai Suburban,Borivali,Cybercrime,Medium,Closed,Emergency call,1,32.0,16337.92
+DEMO-CR-00232,12-10-2025,Kolhapur,Shahupuri,Theft,High,Under investigation,Citizen portal,1,15.0,37405.88
+DEMO-CR-00233,17.10.2025,Satara,Karad,Fraud,High,Under investigation,Helpline,1,14.0,132753.21
+DEMO-CR-00234,2025-10-22,Mumbai Suburban,Kurla,Vehicle Theft,Medium,Under investigation,Police station,1,56.0,148445.86
+DEMO-CR-00235,2025-10-27,Thane,Kopri,Cybercrime,Medium,Closed,Emergency call,1,,107213.38
+DEMO-CR-00236,04/10/2025,Mumbai Suburban,Borivali,Cybercrime,Medium,Closed,Citizen portal,1,19.0,59384.6
+DEMO-CR-00237,09-10-2025,Nashik,Ambad,Theft,Medium,Closed,Helpline,1,19.0,23210.24
+DEMO-CR-00238,14.10.2025,Kolhapur,Shahupuri,Fraud,Low,Closed,Police station,1,40.0,18082.91
+DEMO-CR-00239,2025-10-19,Pune City,Kothrud,Cybercrime,Low,Closed,Emergency call,1,58.0,140811.78
+DEMO-CR-00240,2025-10-24,Nashik,Gangapur,Assault,Low,Under investigation,Citizen portal,1,61.0,971.13
+DEMO-CR-00241,01/10/2025,Satara,Wai,Fraud,Medium,Pending,Helpline,1,30.0,62617.63
+DEMO-CR-00242,06-10-2025,Mumbai Suburban,Borivali,Cybercrime,Low,Closed,Police station,1,33.0,154056.87
+DEMO-CR-00243,11.10.2025,Kolhapur,Rajarampuri,Cybercrime,Medium,Closed,Emergency call,1,14.0,153886.42
+DEMO-CR-00244,2025-10-16,Pune City,Shivajinagar,Cybercrime,Medium,Closed,Citizen portal,1,27.0,73479.23
+DEMO-CR-00245,2025-10-21,Thane,Naupada,Vehicle Theft,High,Closed,Helpline,1,41.0,96824.85
+DEMO-CR-00246,26/10/2025,Satara,Wai,Vehicle Theft,Medium,Closed,Police station,1,42.0,76630.22
+DEMO-CR-00247,03-10-2025,Pune City,Shivajinagar,Fraud,Medium,Under investigation,Emergency call,1,21.0,43976.11
+DEMO-CR-00248,08.10.2025,Kolhapur,Rajarampuri,Theft,High,Closed,Citizen portal,1,67.0,35432.03
+DEMO-CR-00249,2025-11-06,Satara,Wai,Cybercrime,Medium,Closed,Police station,1,39.0,86844.57
+DEMO-CR-00250,2025-11-11,Nashik,Gangapur,Assault,Low,Closed,Emergency call,1,37.0,697.54
+DEMO-CR-00251,16/11/2025,Kolhapur,Rajwada,Vehicle Theft,Low,Under investigation,Citizen portal,1,47.0,121155.41
+DEMO-CR-00252,21-11-2025,Ahmednagar,MIDC,Cybercrime,Medium,Closed,Helpline,1,12.0,58061.54
+DEMO-CR-00253,26.11.2025,Nashik,Gangapur,Cybercrime,Medium,Under investigation,Police station,1,26.0,6570.35
+DEMO-CR-00254,2025-11-03,Ahmednagar,Kotwali,Theft,High,Closed,Emergency call,1,17.0,45436.9
+DEMO-CR-00255,2025-11-08,Nagpur,Sitabuldi,Cybercrime,Medium,Closed,Citizen portal,1,62.0,124961.97
+DEMO-CR-00256,13/11/2025,Kolhapur,Rajwada,Cybercrime,Low,Closed,Helpline,1,26.0,162276.75
+DEMO-CR-00257,18-11-2025,Satara,Satara City,Vehicle Theft,Medium,Under investigation,Police station,1,66.0,230107.78
+DEMO-CR-00258,23.11.2025,Mumbai Suburban,Borivali,Vehicle Theft,Low,Closed,Emergency call,1,42.0,114678.05
+DEMO-CR-00259,2025-11-28,Satara,Wai,Public Disturbance,Low,Under investigation,Citizen portal,1,24.0,1608.05
+DEMO-CR-00260,2025-11-05,Ahmednagar,Toufkhana,Assault,Medium,Under investigation,Helpline,1,13.0,13319.21
+DEMO-CR-00261,10/11/2025,Thane,Kopri,Theft,Medium,Closed,Police station,1,34.0,41047.9
+DEMO-CR-00262,15-11-2025,Ahmednagar,MIDC,Vehicle Theft,Low,Closed,Emergency call,1,26.0,133441.38
+DEMO-CR-00263,20.11.2025,Pune City,Shivajinagar,Cybercrime,Medium,Pending,Citizen portal,1,34.0,93699.47
+DEMO-CR-00264,2025-11-25,Thane,Vartak Nagar,Theft,Low,Under investigation,Helpline,1,13.0,22979.72
+DEMO-CR-00265,2025-11-02,Ahmednagar,MIDC,Assault,Medium,Closed,Police station,1,33.0,867.19
+DEMO-CR-00266,07/11/2025,Nagpur,Sadar,Theft,High,Under investigation,Emergency call,1,29.0,54179.3
+DEMO-CR-00267,12-11-2025,Thane,Naupada,cybercrime,Low,Closed,Citizen portal,1,14.0,83027.5
+DEMO-CR-00268,17.11.2025,Ahmednagar,Toufkhana,Vehicle Theft,Low,Closed,Helpline,1,37.0,172190.62
+DEMO-CR-00269,2025-11-22,Thane,Naupada,Cybercrime,High,Closed,Police station,1,56.0,115442.85
+DEMO-CR-00270,2025-11-27,Kolhapur,Rajwada,Public Disturbance,Medium,Closed,Emergency call,1,19.0,2208.32
+DEMO-CR-00271,04/11/2025,Nagpur,Sitabuldi,Fraud,Low,Pending,Citizen portal,1,39.0,187509.96
+DEMO-CR-00272,09-11-2025,Thane,Vartak Nagar,Vehicle Theft,Medium,Closed,Helpline,1,29.0,70568.97
+DEMO-CR-00273,14.11.2025,Ahmednagar,MIDC,Fraud,High,Under investigation,Police station,1,21.0,205894.48
+DEMO-CR-00274,2025-11-19,Nagpur,Sadar,Cybercrime,Low,Closed,Emergency call,1,25.0,170399.61
+DEMO-CR-00275,2025-11-24,Satara,Karad,Public Disturbance,Medium,Closed,Citizen portal,1,22.0,1123.8
+DEMO-CR-00276,09/12/2025,Nagpur,Sitabuldi,Public Disturbance,High,Under investigation,Police station,1,56.0,4780.59
+DEMO-CR-00277,14-12-2025,Thane,Kopri,Fraud,Low,Closed,Emergency call,1,33.0,161678.53
+DEMO-CR-00278,19.12.2025,Satara,Karad,Public Disturbance,Medium,Under investigation,Citizen portal,1,22.0,2320.36
+DEMO-CR-00279,2025-12-24,Mumbai Suburban,Borivali,Assault,High,Under investigation,Helpline,1,34.0,12340.61
+DEMO-CR-00280,2025-12-01,Kolhapur,Shahupuri,Public Disturbance,Medium,Closed,Police station,1,19.0,4513.83
+DEMO-CR-00281,06/12/2025,Pune City,Shivajinagar,Vehicle Theft,High,Under investigation,Emergency call,1,30.0,219892.85
+DEMO-CR-00282,11-12-2025,Nagpur,Mankapur,Public Disturbance,Low,Closed,Citizen portal,1,,4204.62
+DEMO-CR-00283,16.12.2025,Kolhapur,Shahupuri,Fraud,Medium,Closed,Helpline,1,9.0,95967.23
+DEMO-CR-00284,2025-12-21,Mumbai Suburban,Borivali,Fraud,Low,Closed,Police station,1,17.0,110213.77
+DEMO-CR-00285,2025-12-26,Kolhapur,Rajwada,Cybercrime,Low,Under investigation,Emergency call,1,24.0,155414.51
+DEMO-CR-00286,03/12/2025,Ahmednagar,Toufkhana,Theft,Low,Closed,Citizen portal,1,12.0,43402.18
+DEMO-CR-00287,08-12-2025,Nashik,Gangapur,Public Disturbance,Low,Closed,Helpline,1,16.0,108.26
+DEMO-CR-00288,13.12.2025,Thane,Kopri,Vehicle Theft,Medium,Closed,Police station,1,15.0,57313.96
+DEMO-CR-00289,2025-12-18,Ahmednagar,Kotwali,Burglary,Low,Under investigation,Emergency call,1,18.0,33201.48
+DEMO-CR-00290,2025-12-23,Nagpur,Sitabuldi,Fraud,Low,Closed,Citizen portal,1,49.0,47372.7
+DEMO-CR-00291,28/12/2025,Ahmednagar,MIDC, Burglary ,Medium,Closed,Helpline,1,50.0,31142.18
+DEMO-CR-00292,05-12-2025,Nagpur,Sadar,Fraud,Medium,Closed,Police station,1,38.0,88199.6
+DEMO-CR-00293,10.12.2025,Thane,Naupada,Theft,Low,Closed,Emergency call,1,14.0,31257.18
+DEMO-CR-00294,2025-12-15,Satara,Wai,Assault,Low,Under investigation,Citizen portal,1,18.0,10579.95
+DEMO-CR-00295,2025-12-20,Nashik,Panchavati,Theft,Medium,Pending,Helpline,1,4.0,64427.32
+DEMO-CR-00296,25/12/2025,Thane,Kopri,Cybercrime,Low,Closed,Police station,1,24.0,61465.82
+DEMO-CR-00297,02-12-2025,Ahmednagar,Kotwali,Public Disturbance,Medium,Under investigation,Emergency call,1,18.0,3344.01
+DEMO-CR-00298,07.12.2025,Thane,Kopri,Fraud,Medium,Pending,Citizen portal,1,26.0,88863.88
+DEMO-CR-00299,2025-12-12,Satara,Karad,Fraud,High,Closed,Helpline,1,47.0,53891.17
+DEMO-CR-00300,2025-12-17,Nagpur,Mankapur,Vehicle Theft,High,Closed,Police station,1,28.0,159198.88

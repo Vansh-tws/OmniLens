@@ -1,0 +1,272 @@
+﻿date,description,category,direction,amount_inr,status,merchant,payment_method,transaction_id,account_type,phone_number,email,bank_ifsc,pan,reference_no
+2025-01-01,Monthly salary credit,Income,Money in,42000.0,Completed,Employer Payroll,Bank transfer,PAY-00045,Savings account,9100002045,demo.user45@example.test,ICIC0000789,PQRSX5678L,UPI25000000000045
+05/01/2025,Monthly rent payment,Housing,Money out,15000.0,Completed,Landlord Transfer,UPI,PAY-00046,Savings account,9100002046,demo.user46@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000046
+02-01-2025,Society maintenance,Housing,Money out,13363.72,Completed,Landlord Transfer,Debit card,PAY-00047,Savings account,9100002047,demo.user47@example.test,HDFC0000123,ABCDE1234F,UPI25000000000047
+04.01.2025,Stationery,Education,Money out,2560.74,Completed,Book House,Cash,PAY-00048,Savings account,9100002048,demo.user48@example.test,SBIN0000456,PQRSX5678L,UPI25000000000048
+2025-01-06,Metro card,Travel,Money out,547.89,Completed,Rail Ticketing,Net banking,PAY-00049,Savings account,9100002049,demo.user49@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000049
+2025-01-08,Medical tests,Health,Money out,2233.02,Completed,Care Clinic,UPI,PAY-00050,Savings account,9100002050,demo.user50@example.test,UTIB0000234,ABCDE1234F,UPI25000000000050
+10/01/2025,Groceries,Food,Money out,491.1,Completed,Fresh Basket,Debit card,PAY-00051,Savings account,9100002051,demo.user51@example.test,HDFC0000123,PQRSX5678L,UPI25000000000051
+12-01-2025,Internet bill,Bills,Money out,736.9,Completed,Internet Provider,Cash,PAY-00052,Savings account,9100002052,demo.user52@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000052
+14.01.2025,Household item,Shopping,Money out,4677.02,Completed,Clothing Shop,Net banking,PAY-00053,Savings account,9100002053,demo.user53@example.test,ICIC0000789,ABCDE1234F,UPI25000000000053
+2025-01-16,Society maintenance,Housing,Money out,12361.71,Completed,Society Office,UPI,PAY-00054,Savings account,9100002054,demo.user54@example.test,UTIB0000234,PQRSX5678L,UPI25000000000054
+2025-01-18,Purchase refund,Refund,Money in,1204.5,Completed,Marketplace Refund,Debit card,PAY-00055,Savings account,9100002055,demo.user55@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000055
+20/01/2025,Auto fare,Travel,Money out,312.96,Completed,Fuel Station,Cash,PAY-00056,Savings account,9100002056,demo.user56@example.test,SBIN0000456,ABCDE1234F,UPI25000000000056
+22-01-2025,Doctor consultation,Health,Money out,6355.44,Completed,Diagnostic Centre,Net banking,PAY-00057,Savings account,9100002057,demo.user57@example.test,ICIC0000789,PQRSX5678L,UPI25000000000057
+24.01.2025,Dinner,food ,Money out,1553.51,Failed,Daily Needs,UPI,PAY-00058,Savings account,9100002058,demo.user58@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000058
+2025-01-26,Electricity bill,Bills,Money out,1766.11,Completed,Power Utility,Debit card,PAY-00059,Savings account,9100002059,demo.user59@example.test,HDFC0000123,ABCDE1234F,UPI25000000000059
+2025-01-01,Household item,Shopping,Money out,3222.53,Completed,Clothing Shop,Cash,PAY-00060,Savings account,9100002060,demo.user60@example.test,SBIN0000456,PQRSX5678L,UPI25000000000060
+03/01/2025,Society maintenance,Housing,Money out,15430.86,Completed,Landlord Transfer,Net banking,PAY-00061,Savings account,9100002061,demo.user61@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000061
+05-01-2025,  Course fee  ,Education,Money out,980.47,Completed,Campus Store,UPI,PAY-00062,Savings account,9100002062,demo.user62@example.test,UTIB0000234,ABCDE1234F,UPI25000000000062
+07.01.2025,Train ticket,Travel,Money out,395.8,Completed,City Bus,Debit card,PAY-00063,Savings account,9100002063,demo.user63@example.test,HDFC0000123,PQRSX5678L,UPI25000000000063
+2025-01-09,Pharmacy,Health,Money out,3367.73,Completed,City Pharmacy,Cash,PAY-00064,Savings account,9100002064,demo.user64@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000064
+2025-01-11,Milk and bread,Food,Money out,1018.14,Completed,Local grocery,Net banking,PAY-00065,Savings account,9100002065,demo.user65@example.test,ICIC0000789,ABCDE1234F,UPI25000000000065
+13/01/2025,Internet bill,Bills,Money out,571.63,Completed,Internet Provider,UPI,PAY-00066,Savings account,9100002066,demo.user66@example.test,UTIB0000234,PQRSX5678L,UPI25000000000066
+15-01-2025,Clothing,Shopping,Money out,1608.53,Pending,Online Marketplace,Debit card,PAY-00067,Savings account,9100002067,demo.user67@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000067
+17.01.2025,Society maintenance,Housing,Money out,12137.94,Completed,Landlord Transfer,Cash,PAY-00068,Savings account,9100002068,demo.user68@example.test,SBIN0000456,ABCDE1234F,UPI25000000000068
+2025-01-19,Stationery,Education,Money out,3374.23,Completed,Book House,Net banking,PAY-00069,Savings account,9100002069,demo.user69@example.test,ICIC0000789,PQRSX5678L,UPI25000000000069
+2025-01-21,Bus pass,Travel,Money out,972.2,Completed,Rail Ticketing,UPI,PAY-00070,Savings account,9100002070,demo.user70@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000070
+23/01/2025,Doctor consultation,Health,Money out,610.6,Completed,Care Clinic,Debit card,PAY-00071,Savings account,9100002071,demo.user71@example.test,HDFC0000123,ABCDE1234F,UPI25000000000071
+25-01-2025,Family transfer received,Other income,Money in,2038.98,Completed,Family Transfer,Cash,PAY-00072,Savings account,9100002072,demo.user72@example.test,SBIN0000456,PQRSX5678L,UPI25000000000072
+27.01.2025,Mobile recharge,Bills,Money out,1894.36,Completed,Mobile Network,Net banking,PAY-00073,Savings account,9100002073,demo.user73@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000073
+2025-01-02,Online purchase,Shopping,Money out,2050.57,Completed,General Store,UPI,PAY-00074,Savings account,9100002074,demo.user74@example.test,UTIB0000234,ABCDE1234F,UPI25000000000074
+2025-01-04,Monthly rent,Housing,Money out,16354.25,Completed,Landlord Transfer,Debit card,PAY-00075,Savings account,9100002075,demo.user75@example.test,HDFC0000123,PQRSX5678L,UPI25000000000075
+06/01/2025,Stationery,Education,Money out,6032.66,Completed,Learning Centre,Cash,PAY-00076,Savings account,9100002076,demo.user76@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000076
+08-01-2025,Metro card,Travel,Money out,173.88,Completed,Rail Ticketing,Net banking,PAY-00077,Savings account,9100002077,demo.user77@example.test,ICIC0000789,ABCDE1234F,UPI25000000000077
+10.01.2025,Doctor consultation,Health,Money out,7601.21,Completed,City Pharmacy,UPI,PAY-00078,Savings account,9100002078,demo.user78@example.test,UTIB0000234,PQRSX5678L,UPI25000000000078
+2025-01-12,Vegetables,FOOD,Money out,907.67,Completed,Fresh Basket,Debit card,PAY-00079,Savings account,9100002079,demo.user79@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000079
+2025-01-14,Internet bill,Bills,Money out,1659.27,Completed,Gas Agency,Cash,PAY-00080,Savings account,9100002080,demo.user80@example.test,SBIN0000456,ABCDE1234F,UPI25000000000080
+16/01/2025,Footwear,Shopping,Money out,7448.22,Completed,Online Marketplace,Net banking,PAY-00081,Savings account,9100002081,demo.user81@example.test,ICIC0000789,PQRSX5678L,UPI25000000000081
+18-01-2025,Society maintenance,Housing,Money out,14535.72,Completed,Society Office,UPI,PAY-00082,Savings account,9100002082,demo.user82@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000082
+20.01.2025,Books,Education,Money out,1003.11,Failed,Campus Store,Debit card,PAY-00083,Savings account,9100002083,demo.user83@example.test,HDFC0000123,ABCDE1234F,UPI25000000000083
+2025-01-22,Bus pass,Travel,Money out,823.05,Completed,Fuel Station,Cash,PAY-00084,Savings account,9100002084,demo.user84@example.test,SBIN0000456,PQRSX5678L,UPI25000000000084
+2025-01-24,Medical tests,Health,Money out,3884.32,Completed,Care Clinic,Net banking,PAY-00085,Savings account,9100002085,demo.user85@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000085
+26/01/2025,Lunch,Food,Money out,1366.35,Completed,Market Store,UPI,PAY-00086,Savings account,9100002086,demo.user86@example.test,UTIB0000234,ABCDE1234F,UPI25000000000086
+01-01-2025,Mobile recharge,Bills,Money out,2348.18,Completed,Power Utility,Debit card,PAY-00087,Savings account,9100002087,demo.user87@example.test,HDFC0000123,PQRSX5678L,UPI25000000000087
+03.01.2025,Household item,Shopping,Money out,8272.6,Completed,General Store,Cash,PAY-00088,Savings account,9100002088,demo.user88@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000088
+2025-01-05,Monthly rent,Housing,Money out,13136.01,Completed,Society Office,Net banking,PAY-00089,Savings account,9100002089,demo.user89@example.test,ICIC0000789,ABCDE1234F,UPI25000000000089
+2025-02-01,Monthly salary credit,Income,Money in,42500.0,Completed,Employer Payroll,Bank transfer,PAY-00135,Savings account,9100002135,demo.user135@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000135
+05/02/2025,Monthly rent payment,Housing,Money out,14500.0,Completed,Landlord Transfer,UPI,PAY-00136,Savings account,9100002136,demo.user136@example.test,ICIC0000789,ABCDE1234F,UPI25000000000136
+03-02-2025,Pharmacy,Health,Money out,5442.37,Completed,City Pharmacy,Cash,PAY-00137,Savings account,9100002137,demo.user137@example.test,UTIB0000234,PQRSX5678L,UPI25000000000137
+05.02.2025,Groceries,Food,Money out,1005.32,Completed,Market Store,Net banking,PAY-00138,Savings account,9100002138,demo.user138@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000138
+2025-02-07,Mobile recharge,Bills,Money out,1805.01,Completed,Mobile Network,UPI,PAY-00139,Savings account,9100002139,demo.user139@example.test,SBIN0000456,ABCDE1234F,UPI25000000000139
+2025-02-09,Footwear,Shopping,Money out,5372.11,Completed,Clothing Shop,Debit card,PAY-00140,Savings account,9100002140,demo.user140@example.test,ICIC0000789,PQRSX5678L,UPI25000000000140
+11/02/2025,Monthly rent,Housing,Money out,14483.88,Completed,Landlord Transfer,Cash,PAY-00141,Savings account,9100002141,demo.user141@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000141
+13-02-2025,Books,Education,Money out,1223.71,Completed,Campus Store,Net banking,PAY-00142,Savings account,9100002142,demo.user142@example.test,HDFC0000123,ABCDE1234F,UPI25000000000142
+15.02.2025,Bus pass,Travel,Money out,501.49,Completed,Rail Ticketing,UPI,PAY-00143,Savings account,9100002143,demo.user143@example.test,SBIN0000456,PQRSX5678L,UPI25000000000143
+2025-02-17,Doctor consultation,Health,Money out,613.85,Completed,Diagnostic Centre,Debit card,PAY-00144,Savings account,9100002144,demo.user144@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000144
+2025-02-19,Purchase refund,Refund,Money in,1093.43,Completed,Marketplace Refund,Cash,PAY-00145,Savings account,9100002145,demo.user145@example.test,UTIB0000234,ABCDE1234F,UPI25000000000145
+21/02/2025,Internet bill,Bills,Money out,2594.2,Completed,Internet Provider,Net banking,PAY-00146,Savings account,9100002146,demo.user146@example.test,HDFC0000123,PQRSX5678L,UPI25000000000146
+23-02-2025,Clothing,Shopping,Money out,696.67,Completed,General Store,UPI,PAY-00147,Savings account,9100002147,demo.user147@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000147
+25.02.2025,Society maintenance,Housing,Money out,,Failed,Landlord Transfer,Debit card,PAY-00148,Savings account,9100002148,demo.user148@example.test,ICIC0000789,ABCDE1234F,UPI25000000000148
+2025-02-27,Books,Education,Money out,1735.48,Completed,Campus Store,Cash,PAY-00149,Savings account,9100002149,demo.user149@example.test,UTIB0000234,PQRSX5678L,UPI25000000000149
+2025-02-02,Auto fare,Travel,Money out,906.54,Completed,City Bus,Net banking,PAY-00150,Savings account,9100002150,demo.user150@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000150
+04/02/2025,Medical tests,Health,Money out,7710.94,Completed,Care Clinic,UPI,PAY-00151,Savings account,9100002151,demo.user151@example.test,SBIN0000456,ABCDE1234F,UPI25000000000151
+06-02-2025,Dinner,Food,Money out,1093.62,Completed,Local grocery,Debit card,PAY-00152,Savings account,9100002152,demo.user152@example.test,ICIC0000789,PQRSX5678L,UPI25000000000152
+08.02.2025,Mobile recharge,Bills,Money out,298.7,Completed,Gas Agency,Cash,PAY-00153,Savings account,9100002153,demo.user153@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000153
+2025-02-10,Footwear,Shopping,Money out,8197.8,Completed,General Store,Net banking,PAY-00154,Savings account,9100002154,demo.user154@example.test,HDFC0000123,ABCDE1234F,UPI25000000000154
+2025-02-12,Society maintenance,Housing,Money out,15012.27,Completed,Society Office,UPI,PAY-00155,Savings account,9100002155,demo.user155@example.test,SBIN0000456,PQRSX5678L,UPI25000000000155
+14/02/2025,Stationery,Education,Money out,349.62,Completed,Book House,Debit card,PAY-00156,Savings account,9100002156,demo.user156@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000156
+16-02-2025,Bus pass,Travel,Money out,289.92,Pending,City Bus,Cash,PAY-00157,Savings account,9100002157,demo.user157@example.test,UTIB0000234,ABCDE1234F,UPI25000000000157
+18.02.2025,Pharmacy,Health,Money out,7171.3,Completed,Care Clinic,Net banking,PAY-00158,Savings account,9100002158,demo.user158@example.test,HDFC0000123,PQRSX5678L,UPI25000000000158
+2025-02-20,Monthly ration,Food,Money out,556.17,Completed,Market Store,UPI,PAY-00159,Savings account,9100002159,demo.user159@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000159
+2025-02-22,Electricity bill,Bills,Money out,756.66,Completed,Mobile Network,Debit card,PAY-00160,Savings account,9100002160,demo.user160@example.test,ICIC0000789,ABCDE1234F,UPI25000000000160
+24/02/2025,Online purchase,Shopping,Money out,4094.42,Completed,Clothing Shop,Cash,PAY-00161,Savings account,9100002161,demo.user161@example.test,UTIB0000234,PQRSX5678L,UPI25000000000161
+26-02-2025,Family transfer received,Other income,Money in,439.11,Completed,Family Transfer,Net banking,PAY-00162,Savings account,9100002162,demo.user162@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000162
+01.02.2025,Books,Education,Money out,5226.73,Completed,Campus Store,UPI,PAY-00163,Savings account,9100002163,demo.user163@example.test,SBIN0000456,ABCDE1234F,UPI25000000000163
+2025-02-03,Train ticket,Travel,Money out,458.24,Completed,Rail Ticketing,Debit card,PAY-00164,Savings account,9100002164,demo.user164@example.test,ICIC0000789,PQRSX5678L,UPI25000000000164
+2025-02-05,Pharmacy,Health,Money out,5046.01,Completed,Care Clinic,Cash,PAY-00165,Savings account,9100002165,demo.user165@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000165
+07/02/2025,Vegetables,Food,Money out,999.52,Completed,Market Store,Net banking,PAY-00166,Savings account,9100002166,demo.user166@example.test,HDFC0000123,ABCDE1234F,UPI25000000000166
+09-02-2025,Internet bill,Bills,Money out,2250.25,Completed,Gas Agency,UPI,PAY-00167,Savings account,9100002167,demo.user167@example.test,SBIN0000456,PQRSX5678L,UPI25000000000167
+11.02.2025,Footwear,Shopping,Money out,3236.56,Completed,Clothing Shop,Debit card,PAY-00168,Savings account,9100002168,demo.user168@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000168
+2025-02-13,Monthly rent,Housing,Money out,15698.41,Completed,Society Office,Cash,PAY-00169,Savings account,9100002169,demo.user169@example.test,UTIB0000234,ABCDE1234F,UPI25000000000169
+2025-02-15,Stationery,Education,Money out,4794.99,Completed,Book House,Net banking,PAY-00170,Savings account,9100002170,demo.user170@example.test,HDFC0000123,PQRSX5678L,UPI25000000000170
+17/02/2025,Auto fare,Travel,Money out,800.13,Completed,Rail Ticketing,UPI,PAY-00171,Savings account,9100002171,demo.user171@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000171
+19-02-2025,Doctor consultation,Health,Money out,925.52,Completed,City Pharmacy,Debit card,PAY-00172,Savings account,9100002172,demo.user172@example.test,ICIC0000789,ABCDE1234F,UPI25000000000172
+21.02.2025,Lunch,Food,Money out,319.7,Failed,Local grocery,Cash,PAY-00173,Savings account,9100002173,demo.user173@example.test,UTIB0000234,PQRSX5678L,UPI25000000000173
+2025-02-23,Mobile recharge,Bills,Money out,903.12,Completed,Mobile Network,Net banking,PAY-00174,Savings account,9100002174,demo.user174@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000174
+2025-02-25,Clothing,Shopping,Money out,7628.79,Completed,General Store,UPI,PAY-00175,Savings account,9100002175,demo.user175@example.test,SBIN0000456,ABCDE1234F,UPI25000000000175
+27/02/2025,Monthly rent,Housing,Money out,12776.42,Completed,Landlord Transfer,Debit card,PAY-00176,Savings account,9100002176,demo.user176@example.test,ICIC0000789,PQRSX5678L,UPI25000000000176
+02-02-2025,Course fee,Education,Money out,5174.63,Completed,Campus Store,Cash,PAY-00177,Savings account,9100002177,demo.user177@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000177
+04.02.2025,Train ticket,Travel,Money out,987.54,Completed,Metro Services,Net banking,PAY-00178,Savings account,9100002178,demo.user178@example.test,HDFC0000123,ABCDE1234F,UPI25000000000178
+2025-02-06,Pharmacy,Health,Money out,5258.0,Completed,Diagnostic Centre,UPI,PAY-00179,Savings account,9100002179,demo.user179@example.test,SBIN0000456,PQRSX5678L,UPI25000000000179
+2025-03-01,Monthly salary credit,Income,Money in,43000.0,Completed,Employer Payroll,Bank transfer,PAY-00225,Savings account,9100002225,demo.user225@example.test,HDFC0000123,ABCDE1234F,UPI25000000000225
+05/03/2025,Monthly rent payment,Housing,Money out,15000.0,Completed,Landlord Transfer,UPI,PAY-00226,Savings account,9100002226,demo.user226@example.test,SBIN0000456,PQRSX5678L,UPI25000000000226
+04-03-2025,Online purchase,Shopping,Money out,1295.18,Completed,Online Marketplace,Net banking,PAY-00227,Savings account,9100002227,demo.user227@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000227
+06.03.2025,Society maintenance,Housing,Money out,12802.83,Completed,Landlord Transfer,UPI,PAY-00228,Savings account,9100002228,demo.user228@example.test,UTIB0000234,ABCDE1234F,UPI25000000000228
+2025-03-08,Books,Education,Money out,3789.04,Completed,Campus Store,Debit card,PAY-00229,Savings account,9100002229,demo.user229@example.test,HDFC0000123,PQRSX5678L,UPI25000000000229
+2025-03-10,Petrol,Travel,Money out,937.14,Completed,City Bus,Cash,PAY-00230,Savings account,9100002230,demo.user230@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000230
+12/03/2025,Pharmacy,Health,Money out,6098.12,Completed,Care Clinic,Net banking,PAY-00231,Savings account,9100002231,demo.user231@example.test,ICIC0000789,ABCDE1234F,UPI25000000000231
+14-03-2025,Groceries,Food,Money out,1426.63,Completed,Fresh Basket,UPI,PAY-00232,Savings account,9100002232,demo.user232@example.test,UTIB0000234,PQRSX5678L,UPI25000000000232
+16.03.2025,Mobile recharge,Bills,Money out,3007.31,Completed,Mobile Network,Debit card,PAY-00233,Savings account,9100002233,demo.user233@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000233
+2025-03-18,Household item,Shopping,Money out,2359.49,Completed,Clothing Shop,Cash,PAY-00234,Savings account,9100002234,demo.user234@example.test,SBIN0000456,ABCDE1234F,UPI25000000000234
+2025-03-20,Purchase refund,Refund,Money in,533.5,Completed,Marketplace Refund,Net banking,PAY-00235,Savings account,9100002235,demo.user235@example.test,ICIC0000789,PQRSX5678L,UPI25000000000235
+22/03/2025,Books,Education,Money out,2433.09,Completed,Book House,UPI,PAY-00236,Savings account,9100002236,demo.user236@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000236
+24-03-2025,Bus pass,Travel,Money out,257.64,Completed,Fuel Station,Debit card,PAY-00237,Savings account,9100002237,demo.user237@example.test,HDFC0000123,ABCDE1234F,UPI25000000000237
+26.03.2025,Medical tests,Health,Money out,5732.35,Failed,Diagnostic Centre,Cash,PAY-00238,Savings account,9100002238,demo.user238@example.test,SBIN0000456,PQRSX5678L,UPI25000000000238
+2025-03-01,Lunch,Food,Money out,494.64,Completed,Market Store,Net banking,PAY-00239,Savings account,9100002239,demo.user239@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000239
+2025-03-03,Cooking gas,Bills,Money out,274.42,Completed,Power Utility,UPI,PAY-00240,Savings account,9100002240,demo.user240@example.test,UTIB0000234,ABCDE1234F,UPI25000000000240
+05/03/2025,Online purchase,Shopping,Money out,3479.64,Completed,Clothing Shop,Debit card,PAY-00241,Savings account,9100002241,demo.user241@example.test,HDFC0000123,PQRSX5678L,UPI25000000000241
+07-03-2025,Monthly rent,Housing,Money out,12999.76,Completed,Landlord Transfer,Cash,PAY-00242,Savings account,9100002242,demo.user242@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000242
+09.03.2025,Course fee,Education,Money out,3046.05,Completed,Campus Store,Net banking,PAY-00243,Savings account,9100002243,demo.user243@example.test,ICIC0000789,ABCDE1234F,UPI25000000000243
+2025-03-11,Train ticket,Travel,Money out,677.84,Completed,Metro Services,UPI,PAY-00244,Savings account,9100002244,demo.user244@example.test,UTIB0000234,PQRSX5678L,UPI25000000000244
+2025-03-13,Pharmacy,Health,Money out,6085.72,Completed,Diagnostic Centre,Debit card,PAY-00245,Savings account,9100002245,demo.user245@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000245
+15/03/2025,Vegetables,Food,Money out,1558.66,Completed,Market Store,Cash,PAY-00246,Savings account,9100002246,demo.user246@example.test,SBIN0000456,ABCDE1234F,UPI25000000000246
+17-03-2025,Mobile recharge,Bills,Money out,390.36,Pending,Mobile Network,Net banking,PAY-00247,Savings account,9100002247,demo.user247@example.test,ICIC0000789,PQRSX5678L,UPI25000000000247
+19.03.2025,Household item,Shopping,Money out,639.33,Completed,General Store,UPI,PAY-00248,Savings account,9100002248,demo.user248@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000248
+2025-03-21,Society maintenance,Housing,Money out,13999.59,Completed,Landlord Transfer,Debit card,PAY-00249,Savings account,9100002249,demo.user249@example.test,HDFC0000123,ABCDE1234F,UPI25000000000249
+2025-03-23,Books,Education,Money out,4768.49,Completed,Campus Store,Cash,PAY-00250,Savings account,9100002250,demo.user250@example.test,SBIN0000456,PQRSX5678L,UPI25000000000250
+25/03/2025,Petrol,Travel,Money out,267.23,Completed,Fuel Station,Net banking,PAY-00251,Savings account,9100002251,demo.user251@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000251
+27-03-2025,Family transfer received,Other income,Money in,1475.58,Completed,Family Transfer,UPI,PAY-00252,Savings account,9100002252,demo.user252@example.test,UTIB0000234,ABCDE1234F,UPI25000000000252
+02.03.2025,Lunch,Food,Money out,807.15,Completed,Daily Needs,Debit card,PAY-00253,Savings account,9100002253,demo.user253@example.test,HDFC0000123,PQRSX5678L,UPI25000000000253
+2025-03-04,Internet bill,Bills,Money out,861.06,Completed,Internet Provider,Cash,PAY-00254,Savings account,,demo.user254@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000254
+2025-03-06,Online purchase,Shopping,Money out,484.18,Completed,General Store,Net banking,PAY-00255,Savings account,9100002255,demo.user255@example.test,ICIC0000789,ABCDE1234F,UPI25000000000255
+08/03/2025,Monthly rent,Housing,Money out,12983.74,Completed,Society Office,UPI,PAY-00256,Savings account,9100002256,demo.user256@example.test,UTIB0000234,PQRSX5678L,UPI25000000000256
+10-03-2025,Course fee,Education,Money out,770.51,Completed,Campus Store,Debit card,PAY-00257,Savings account,9100002257,demo.user257@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000257
+12.03.2025,Train ticket,Travel,Money out,922.63,Completed,Rail Ticketing,Cash,PAY-00258,Savings account,9100002258,demo.user258@example.test,SBIN0000456,ABCDE1234F,UPI25000000000258
+2025-03-14,Pharmacy,Health,Money out,694.45,Completed,Diagnostic Centre,Net banking,PAY-00259,Savings account,9100002259,demo.user259@example.test,ICIC0000789,PQRSX5678L,UPI25000000000259
+2025-03-16,Milk and bread,Food,Money out,323.17,Completed,Market Store,UPI,PAY-00260,Savings account,9100002260,demo.user260@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000260
+18/03/2025,Internet bill,Bills,Money out,503.44,Completed,Internet Provider,Debit card,PAY-00261,Savings account,9100002261,demo.user261@example.test,HDFC0000123,ABCDE1234F,UPI25000000000261
+20-03-2025,Online purchase,Shopping,Money out,8504.82,Completed,Online Marketplace,Cash,PAY-00262,Savings account,9100002262,demo.user262@example.test,SBIN0000456,PQRSX5678L,UPI25000000000262
+22.03.2025,Society maintenance,Housing,Money out,14804.5,Failed,Society Office,Net banking,PAY-00263,Savings account,9100002263,demo.user263@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000263
+2025-03-24,Books,Education,Money out,1322.01,Completed,Learning Centre,UPI,PAY-00264,Savings account,9100002264,demo.user264@example.test,UTIB0000234,ABCDE1234F,UPI25000000000264
+2025-03-26,Petrol,Travel,Money out,340.49,Completed,Fuel Station,Debit card,PAY-00265,Savings account,9100002265,demo.user265@example.test,HDFC0000123,PQRSX5678L,UPI25000000000265
+01/03/2025,Pharmacy,Health,Money out,1759.51,Completed,City Pharmacy,Cash,PAY-00266,Savings account,9100002266,demo.user266@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000266
+03-03-2025,Vegetables,Food,Money out,534.4,Completed,Daily Needs,Net banking,PAY-00267,Savings account,9100002267,demo.user267@example.test,ICIC0000789,ABCDE1234F,UPI25000000000267
+05.03.2025,Cooking gas,Bills,Money out,359.75,Completed,Mobile Network,UPI,PAY-00268,Savings account,9100002268,demo.user268@example.test,UTIB0000234,PQRSX5678L,UPI25000000000268
+2025-03-07,Clothing,Shopping,Money out,839.66,Completed,General Store,Debit card,PAY-00269,Savings account,9100002269,demo.user269@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000269
+2025-04-01,Monthly salary credit,Income,Money in,43500.0,Completed,Employer Payroll,Bank transfer,PAY-00315,Savings account,9100002315,demo.user315@example.test,UTIB0000234,PQRSX5678L,UPI25000000000315
+05/04/2025,Monthly rent payment,Housing,Money out,14500.0,Completed,Landlord Transfer,UPI,PAY-00316,Savings account,9100002316,demo.user316@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000316
+05-04-2025,Train ticket,Travel,Money out,1067.11,Completed,Fuel Station,UPI,PAY-00317,Savings account,9100002317,demo.user317@example.test,SBIN0000456,ABCDE1234F,UPI25000000000317
+07.04.2025,Pharmacy,Health,Money out,3891.07,Completed,City Pharmacy,Debit card,PAY-00318,Savings account,9100002318,demo.user318@example.test,ICIC0000789,PQRSX5678L,UPI25000000000318
+2025-04-09,Dinner,Food,Money out,1337.71,Completed,Local grocery,Cash,PAY-00319,Savings account,9100002319,demo.user319@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000319
+2025-04-11,Electricity bill,Bills,Money out,1510.15,Completed,Mobile Network,Net banking,PAY-00320,Savings account,9100002320,demo.user320@example.test,HDFC0000123,ABCDE1234F,UPI25000000000320
+13/04/2025,Footwear,Shopping,Money out,5546.75,Completed,Online Marketplace,UPI,PAY-00321,Savings account,9100002321,demo.user321@example.test,SBIN0000456,PQRSX5678L,UPI25000000000321
+15-04-2025,Monthly rent,Housing,Money out,15216.02,Completed,Landlord Transfer,Debit card,PAY-00322,Savings account,9100002322,demo.user322@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000322
+17.04.2025,Books,Education,Money out,5217.98,Completed,Campus Store,Cash,PAY-00323,Savings account,9100002323,demo.user323@example.test,BADIFSC000,ABCDE1234F,UPI25000000000323
+2025-04-19,Train ticket,Travel,Money out,663.34,Completed,City Bus,Net banking,PAY-00324,Savings account,9100002324,demo.user324@example.test,HDFC0000123,PQRSX5678L,UPI25000000000324
+2025-04-21,Purchase refund,Refund,Money in,819.66,Completed,Marketplace Refund,UPI,PAY-00325,Savings account,9100002325,demo.user325@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000325
+23/04/2025,Vegetables,Food,Money out,340.91,Completed,Daily Needs,Debit card,PAY-00326,Savings account,9100002326,demo.user326@example.test,ICIC0000789,ABCDE1234F,UPI25000000000326
+25-04-2025,Cooking gas,Bills,Money out,1319.21,Completed,Gas Agency,Cash,PAY-00327,Savings account,9100002327,demo.user327@example.test,UTIB0000234,PQRSX5678L,UPI25000000000327
+27.04.2025,Footwear,Shopping,Money out,7337.67,Failed,Clothing Shop,Net banking,PAY-00328,Savings account,9100002328,demo.user328@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000328
+2025-04-02,Monthly rent,Housing,Money out,15868.39,Completed,Landlord Transfer,UPI,PAY-00329,Savings account,9100002329,demo.user329@example.test,SBIN0000456,ABCDE1234F,UPI25000000000329
+2025-04-04,Stationery,Education,Money out,3989.25,Completed,Learning Centre,Debit card,PAY-00330,Savings account,9100002330,demo.user330@example.test,ICIC0000789,PQRSX5678L,UPI25000000000330
+06/04/2025,Auto fare,Travel,Money out,663.44,Completed,Metro Services,Cash,PAY-00331,Savings account,9100002331,demo.user331@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000331
+08-04-2025,Medical tests,Health,Money out,8260.2,Completed,Care Clinic,Net banking,PAY-00332,Savings account,9100002332,demo.user332@example.test,HDFC0000123,ABCDE1234F,UPI25000000000332
+10.04.2025,Monthly ration,Food,Money out,334.69,Completed,Market Store,UPI,PAY-00333,Savings account,9100002333,demo.user333@example.test,SBIN0000456,PQRSX5678L,UPI25000000000333
+2025-04-12,Mobile recharge,Bills,Money out,1371.38,Completed,Gas Agency,Debit card,PAY-00334,Savings account,9100002334,demo.user334@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000334
+2025-04-14,Household item,Shopping,Money out,8183.1,Completed,Online Marketplace,Cash,PAY-00335,Savings account,9100002335,demo.user335@example.test,UTIB0000234,ABCDE1234F,UPI25000000000335
+16/04/2025,Society maintenance,Housing,Money out,14965.4,Completed,Society Office,Net banking,PAY-00336,Savings account,9100002336,demo.user336@example.test,HDFC0000123,PQRSX5678L,UPI25000000000336
+18-04-2025,Course fee,Education,Money out,4385.75,Pending,Campus Store,UPI,PAY-00337,Savings account,9100002337,demo.user337@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000337
+20.04.2025,Metro card,Travel,Money out,1080.04,Completed,Rail Ticketing,Debit card,PAY-00338,Savings account,9100002338,demo.user338@example.test,ICIC0000789,ABCDE1234F,UPI25000000000338
+2025-04-22,Doctor consultation,Health,Money out,5040.9,Completed,Diagnostic Centre,Cash,PAY-00339,Savings account,9100002339,demo.user339@example.test,UTIB0000234,PQRSX5678L,UPI25000000000339
+2025-04-24,Groceries,Food,Money out,738.69,Completed,Daily Needs,Net banking,PAY-00340,Savings account,9100002340,demo.user340@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000340
+26/04/2025,Electricity bill,Bills,Money out,495.82,Completed,Power Utility,UPI,PAY-00341,Savings account,9100002341,demo.user341@example.test,SBIN0000456,ABCDE1234F,UPI25000000000341
+01-04-2025,Family transfer received,Other income,Money in,1152.2,Completed,Family Transfer,Debit card,PAY-00342,Savings account,9100002342,demo.user342@example.test,ICIC0000789,PQRSX5678L,UPI25000000000342
+03.04.2025,Society maintenance,Housing,Money out,15609.57,Completed,Landlord Transfer,Cash,PAY-00343,Savings account,9100002343,demo.user343@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000343
+2025-04-05,Books,Education,Money out,4106.0,Completed,Learning Centre,Net banking,PAY-00344,Savings account,9100002344,demo.user344@example.test,HDFC0000123,ABCDE1234F,UPI25000000000344
+2025-04-07,Bus pass,Travel,Money out,498.76,Completed,Fuel Station,UPI,PAY-00345,Savings account,9100002345,demo.user345@example.test,SBIN0000456,PQRSX5678L,UPI25000000000345
+09/04/2025,Pharmacy,Health,Money out,5084.19,Completed,Care Clinic,Debit card,PAY-00346,Savings account,9100002346,demo.user346@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000346
+11-04-2025,Monthly ration,Food,Money out,234.08,Completed,Local grocery,Cash,PAY-00347,Savings account,9100002347,demo.user347@example.test,UTIB0000234,ABCDE1234F,UPI25000000000347
+13.04.2025,Cooking gas,Bills,Money out,2575.94,Completed,Power Utility,Net banking,PAY-00348,Savings account,9100002348,demo.user348@example.test,HDFC0000123,PQRSX5678L,UPI25000000000348
+2025-04-15,Household item,Shopping,Money out,4907.74,Completed,Clothing Shop,UPI,PAY-00349,Savings account,9100002349,demo.user349@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000349
+2025-04-17,Monthly rent,Housing,Money out,12643.28,Completed,Landlord Transfer,Debit card,PAY-00350,Savings account,9100002350,demo.user350@example.test,ICIC0000789,ABCDE1234F,UPI25000000000350
+19/04/2025,Books,Education,Money out,3175.16,Completed,Campus Store,Cash,PAY-00351,Savings account,9100002351,demo.user351@example.test,UTIB0000234,PQRSX5678L,UPI25000000000351
+21-04-2025,Auto fare,Travel,Money out,133.23,Completed,Rail Ticketing,Net banking,PAY-00352,Savings account,9100002352,demo.user352@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000352
+23.04.2025,Doctor consultation,Health,Money out,1997.0,Failed,City Pharmacy,UPI,PAY-00353,Savings account,9100002353,demo.user353@example.test,SBIN0000456,ABCDE1234F,UPI25000000000353
+2025-04-25,Lunch,Food,Money out,1560.5,Completed,Market Store,Debit card,PAY-00354,Savings account,9100002354,demo.user354@example.test,ICIC0000789,PQRSX5678L,UPI25000000000354
+2025-04-27,Cooking gas,Bills,Money out,279.08,Completed,Mobile Network,Cash,PAY-00355,Savings account,9100002355,demo.user355@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000355
+02/04/2025,Clothing,Shopping,Money out,7274.21,Completed,Clothing Shop,Net banking,PAY-00356,Savings account,9100002356,demo.user356@example.test,HDFC0000123,ABCDE1234F,UPI25000000000356
+04-04-2025,Society maintenance,Housing,Money out,13753.28,Completed,Landlord Transfer,UPI,PAY-00357,Savings account,9100002357,demo.user357@example.test,SBIN0000456,PQRSX5678L,UPI25000000000357
+06.04.2025,Stationery,Education,Money out,4118.9,Completed,Book House,Debit card,PAY-00358,Savings account,9100002358,demo.user358@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000358
+2025-04-08,Auto fare,Travel,Money out,951.75,Completed,Metro Services,Cash,PAY-00359,Savings account,9100002359,demo.user359@example.test,UTIB0000234,ABCDE1234F,UPI25000000000359
+2025-05-01,Monthly salary credit,Income,Money in,44000.0,Completed,Employer Payroll,Bank transfer,PAY-00405,Savings account,9100002405,demo.user405@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000405
+05/05/2025,Monthly rent payment,Housing,Money out,15000.0,Completed,Landlord Transfer,UPI,PAY-00406,Savings account,9100002406,demo.user406@example.test,UTIB0000234,ABCDE1234F,UPI25000000000406
+06-05-2025,Cooking gas,Bills,Money out,263.12,Completed,Power Utility,Debit card,PAY-00407,Savings account,9100002407,demo.user407@example.test,HDFC0000123,PQRSX5678L,UPI25000000000407
+08.05.2025,Footwear,Shopping,Money out,2329.76,Completed,Clothing Shop,Cash,PAY-00408,Savings account,9100002408,demo.user408@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000408
+2025-05-10,Monthly rent,Housing,Money out,12504.15,Completed,Society Office,Net banking,PAY-00409,Savings account,9100002409,demo.user409@example.test,ICIC0000789,ABCDE1234F,UPI25000000000409
+2025-05-12,Course fee,Education,Money out,2247.28,Completed,Campus Store,UPI,PAY-00410,Savings account,9100002410,demo.user410@example.test,UTIB0000234,PQRSX5678L,UPI25000000000410
+14/05/2025,Auto fare,Travel,Money out,1061.14,Completed,Metro Services,Debit card,PAY-00411,Savings account,9100002411,demo.user411@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000411
+16-05-2025,Doctor consultation,Health,Money out,7760.8,Completed,Diagnostic Centre,Cash,PAY-00412,Savings account,9100002412,demo.user412@example.test,SBIN0000456,ABCDE1234F,UPI25000000000412
+18.05.2025,Lunch,Food,Money out,971.92,Completed,Local grocery,Net banking,PAY-00413,Savings account,9100002413,demo.user413@example.test,ICIC0000789,PQRSX5678L,UPI25000000000413
+2025-05-20,Internet bill,Bills,Money out,1183.31,Completed,Mobile Network,UPI,PAY-00414,Savings account,9100002414,demo.user414@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000414
+2025-05-22,Purchase refund,Refund,Money in,967.16,Completed,Marketplace Refund,Debit card,PAY-00415,Savings account,9100002415,demo.user415@example.test,HDFC0000123,ABCDE1234F,UPI25000000000415
+24/05/2025,Monthly rent,Housing,Money out,13629.49,Completed,Landlord Transfer,Cash,PAY-00416,Savings account,9100002416,demo.user416@example.test,SBIN0000456,PQRSX5678L,UPI25000000000416
+26-05-2025,Stationery,Education,Money out,2791.15,Completed,Learning Centre,Net banking,PAY-00417,Savings account,9100002417,demo.user417@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000417
+01.05.2025,Petrol,Travel,Money out,814.2,Failed,Fuel Station,UPI,PAY-00418,Savings account,9100002418,demo.user418@example.test,UTIB0000234,ABCDE1234F,UPI25000000000418
+2025-05-03,Medical tests,Health,Money out,5453.57,Completed,Diagnostic Centre,Debit card,PAY-00419,Savings account,9100002419,demo.user419@example.test,HDFC0000123,PQRSX5678L,UPI25000000000419
+2025-05-05,Groceries,Food,Money out,211.03,Completed,Local grocery,Cash,PAY-00420,Savings account,9100002420,demo.user420@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000420
+07/05/2025,Internet bill,Bills,Money out,564.85,Completed,Power Utility,Net banking,PAY-00421,Savings account,9100002421,demo.user421@example.test,ICIC0000789,ABCDE1234F,UPI25000000000421
+09-05-2025,Household item,Shopping,Money out,280.01,Completed,Online Marketplace,UPI,PAY-00422,Savings account,9100002422,demo.user422@example.test,UTIB0000234,PQRSX5678L,UPI25000000000422
+11.05.2025,Monthly rent,Housing,Money out,14689.33,Completed,Society Office,Debit card,PAY-00423,Savings account,9100002423,demo.user423@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000423
+2025-05-13,Stationery,Education,Money out,5184.27,Completed,Learning Centre,Cash,PAY-00424,Savings account,9100002424,demo.user424@example.test,SBIN0000456,ABCDE1234F,UPI25000000000424
+2025-05-15,Auto fare,Travel,Money out,255.62,Completed,Rail Ticketing,Net banking,PAY-00425,Savings account,9100002425,demo.user425@example.test,ICIC0000789,PQRSX5678L,UPI25000000000425
+17/05/2025,Doctor consultation,Health,Money out,928.04,Completed,Care Clinic,UPI,PAY-00426,Savings account,9100002426,demo.user426@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000426
+19-05-2025,Dinner,Food,Money out,119.08,Pending,Local grocery,Debit card,PAY-00427,Savings account,9100002427,demo.user427@example.test,HDFC0000123,ABCDE1234F,UPI25000000000427
+21.05.2025,Internet bill,Bills,Money out,1904.82,Completed,Gas Agency,Cash,PAY-00428,Savings account,9100002428,demo.user428@example.test,SBIN0000456,PQRSX5678L,UPI25000000000428
+2025-05-23,Household item,Shopping,Money out,5758.19,Completed,Clothing Shop,Net banking,PAY-00429,Savings account,9100002429,demo.user429@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000429
+2025-05-25,Society maintenance,Housing,Money out,14674.67,Completed,Landlord Transfer,UPI,PAY-00430,Savings account,9100002430,demo.user430@example.test,UTIB0000234,ABCDE1234F,UPI25000000000430
+27/05/2025,Course fee,Education,Money out,395.44,Completed,Campus Store,Debit card,PAY-00431,Savings account,9100002431,demo.user431@example.test,HDFC0000123,PQRSX5678L,UPI25000000000431
+02-05-2025,Family transfer received,Other income,Money in,1695.54,Completed,Family Transfer,Cash,PAY-00432,Savings account,9100002432,demo.user432@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000432
+04.05.2025,Doctor consultation,Health,Money out,8197.32,Completed,Diagnostic Centre,Net banking,PAY-00433,Savings account,9100002433,demo.user433@example.test,ICIC0000789,ABCDE1234F,UPI25000000000433
+2025-05-06,Vegetables,Food,Money out,603.47,Completed,Daily Needs,UPI,PAY-00434,Savings account,9100002434,demo.user434@example.test,UTIB0000234,PQRSX5678L,UPI25000000000434
+2025-05-08,Cooking gas,Bills,Money out,486.61,Completed,Power Utility,Debit card,PAY-00435,Savings account,9100002435,demo.user435@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000435
+10/05/2025,Online purchase,Shopping,Money out,6460.99,Completed,Clothing Shop,Cash,PAY-00436,Savings account,9100002436,demo.user436@example.test,SBIN0000456,ABCDE1234F,UPI25000000000436
+12-05-2025,Monthly rent,Housing,Money out,13098.36,Completed,Society Office,Net banking,PAY-00437,Savings account,9100002437,demo.user437@example.test,ICIC0000789,PQRSX5678L,UPI25000000000437
+14.05.2025,Course fee,Education,Money out,4572.65,Completed,Learning Centre,UPI,PAY-00438,Savings account,9100002438,demo.user438@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000438
+2025-05-16,Metro card,Travel,Money out,94.96,Completed,City Bus,Debit card,PAY-00439,Savings account,9100002439,demo.user439@example.test,HDFC0000123,ABCDE1234F,UPI25000000000439
+2025-05-18,Doctor consultation,Health,Money out,8297.91,Completed,Diagnostic Centre,Cash,PAY-00440,Savings account,9100002440,demo.user440@example.test,SBIN0000456,PQRSX5678L,UPI25000000000440
+20/05/2025,Lunch,Food,Money out,1185.01,Completed,Fresh Basket,Net banking,PAY-00441,Savings account,9100002441,demo.user441@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000441
+22-05-2025,Cooking gas,Bills,Money out,1382.68,Completed,Internet Provider,UPI,PAY-00442,Savings account,9100002442,demo.user442@example.test,UTIB0000234,ABCDE1234F,UPI25000000000442
+24.05.2025,Clothing,Shopping,Money out,8854.68,Failed,General Store,Debit card,PAY-00443,Savings account,9100002443,demo.user443@example.test,HDFC0000123,PQRSX5678L,UPI25000000000443
+2025-05-26,Society maintenance,Housing,Money out,12167.55,Completed,Landlord Transfer,Cash,PAY-00444,Savings account,9100002444,demo.user444@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000444
+2025-05-01,Course fee,Education,Money out,4732.24,Completed,Learning Centre,Net banking,PAY-00445,Savings account,9100002445,demo.user445@example.test,ICIC0000789,ABCDE1234F,UPI25000000000445
+03/05/2025,Metro card,Travel,Money out,226.99,Completed,Rail Ticketing,UPI,PAY-00446,Savings account,9100002446,demo.user446@example.test,UTIB0000234,PQRSX5678L,UPI25000000000446
+05-05-2025,Medical tests,Health,Money out,4332.31,Completed,Diagnostic Centre,Debit card,PAY-00447,Savings account,9100002447,demo.user447@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000447
+07.05.2025,Monthly ration,Food,Money out,240.52,Completed,Fresh Basket,Cash,PAY-00448,Savings account,9100002448,demo.user448@example.test,SBIN0000456,ABCDE1234F,UPI25000000000448
+2025-05-09,Mobile recharge,Bills,Money out,2431.57,Completed,Gas Agency,Net banking,PAY-00449,Savings account,9100002449,demo.user449@example.test,ICIC0000789,PQRSX5678L,UPI25000000000449
+2025-06-01,Monthly salary credit,Income,Money in,44500.0,Completed,Employer Payroll,Bank transfer,PAY-00495,Savings account,9100002495,demo.user495@example.test,SBIN0000456,ABCDE1234F,UPI25000000000495
+05/06/2025,Monthly rent payment,Housing,Money out,14500.0,Completed,Landlord Transfer,UPI,PAY-00496,Savings account,9100002496,demo.user496@example.test,ICIC0000789,PQRSX5678L,UPI25000000000496
+07-06-2025,Course fee,Education,Money out,2034.52,Completed,Learning Centre,Cash,PAY-00497,Savings account,9100002497,demo.user497@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000497
+09.06.2025,Bus pass,Travel,Money out,994.52,Completed,Metro Services,Net banking,PAY-00498,Savings account,9100002498,demo.user498@example.test,HDFC0000123,ABCDE1234F,UPI25000000000498
+2025-06-11,Doctor consultation,Health,Money out,435.02,Completed,Diagnostic Centre,UPI,PAY-00499,Savings account,9100002499,demo.user499@example.test,SBIN0000456,PQRSX5678L,UPI25000000000499
+2025-06-13,Lunch,Food,Money out,871.17,Completed,Fresh Basket,Debit card,PAY-00500,Savings account,9100002500,demo.user500@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000500
+15/06/2025,Internet bill,Bills,Money out,2447.62,Completed,Internet Provider,Cash,PAY-00501,Savings account,9100002501,demo.user501@example.test,UTIB0000234,ABCDE1234F,UPI25000000000501
+17-06-2025,Clothing,Shopping,Money out,4620.84,Completed,Clothing Shop,Net banking,PAY-00502,Savings account,9100002502,demo.user502@example.test,HDFC0000123,PQRSX5678L,UPI25000000000502
+19.06.2025,Monthly rent,Housing,Money out,15412.51,Completed,Landlord Transfer,UPI,PAY-00503,Savings account,9100002503,demo.user503@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000503
+2025-06-21,Books,Education,Money out,836.3,Completed,Book House,Debit card,PAY-00504,Savings account,9100002504,demo.user504@example.test,ICIC0000789,ABCDE1234F,UPI25000000000504
+2025-06-23,Purchase refund,Refund,Money in,375.62,Completed,Marketplace Refund,Cash,PAY-00505,Savings account,9100002505,demo.user505@example.test,UTIB0000234,PQRSX5678L,UPI25000000000505
+25/06/2025,Medical tests,Health,Money out,4088.02,Completed,City Pharmacy,Net banking,PAY-00506,Savings account,9100002506,demo.user506@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000506
+27-06-2025,Monthly ration,Food,Money out,1339.23,Completed,Daily Needs,UPI,PAY-00507,Savings account,9100002507,demo.user507@example.test,SBIN0000456,ABCDE1234F,UPI25000000000507
+02.06.2025,Electricity bill,Bills,Money out,2716.81,Failed,Mobile Network,Debit card,PAY-00508,Savings account,9100002508,demo.user508@example.test,ICIC0000789,PQRSX5678L,UPI25000000000508
+2025-06-04,Clothing,Shopping,Money out,510.74,Completed,Clothing Shop,Cash,PAY-00509,Savings account,9100002509,demo.user509@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000509
+2025-06-06,Monthly rent,Housing,Money out,14101.42,Completed,Society Office,Net banking,PAY-00510,Savings account,9100002510,demo.user510@example.test,HDFC0000123,ABCDE1234F,UPI25000000000510
+08/06/2025,Course fee,Education,Money out,5498.75,Completed,Book House,UPI,PAY-00511,Savings account,9100002511,demo.user511@example.test,SBIN0000456,PQRSX5678L,UPI25000000000511
+10-06-2025,Bus pass,Travel,Money out,520.3,Completed,Fuel Station,Debit card,PAY-00512,Savings account,9100002512,demo.user512@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000512
+12.06.2025,Doctor consultation,Health,Money out,2520.65,Completed,Diagnostic Centre,Cash,PAY-00513,Savings account,9100002513,demo.user513@example.test,UTIB0000234,ABCDE1234F,UPI25000000000513
+2025-06-14,Dinner,Food,Money out,1165.7,Completed,Daily Needs,Net banking,PAY-00514,Savings account,9100002514,demo.user514@example.test,HDFC0000123,PQRSX5678L,UPI25000000000514
+2025-06-16,Mobile recharge,Bills,Money out,2224.8,Completed,Internet Provider,UPI,PAY-00515,Savings account,9100002515,demo.user515@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000515
+18/06/2025,Clothing,Shopping,Money out,4927.29,Completed,Clothing Shop,Debit card,PAY-00516,Savings account,9100002516,demo.user516@example.test,ICIC0000789,ABCDE1234F,UPI25000000000516
+20-06-2025,Monthly rent,Housing,Money out,12709.21,Pending,Landlord Transfer,Cash,PAY-00517,Savings account,9100002517,demo.user517@example.test,UTIB0000234,PQRSX5678L,UPI25000000000517
+22.06.2025,Books,Education,Money out,4163.66,Completed,Book House,Net banking,PAY-00518,Savings account,9100002518,demo.user518@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000518
+2025-06-24,Metro card,Travel,Money out,855.72,Completed,Fuel Station,UPI,PAY-00519,Savings account,9100002519,demo.user519@example.test,SBIN0000456,ABCDE1234F,UPI25000000000519
+2025-06-26,Pharmacy,Health,Money out,4663.94,Completed,Care Clinic,Debit card,PAY-00520,Savings account,9100002520,demo.user520@example.test,ICIC0000789,PQRSX5678L,UPI25000000000520
+01/06/2025,Milk and bread,Food,Money out,743.58,Completed,Local grocery,Cash,PAY-00521,Savings account,9100002521,demo.user521@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000521
+03-06-2025,Family transfer received,Other income,Money in,896.55,Completed,Family Transfer,Net banking,PAY-00522,Savings account,9100002522,demo.user522@example.test,HDFC0000123,ABCDE1234F,UPI25000000000522
+05.06.2025,Clothing,Shopping,Money out,5933.27,Completed,Online Marketplace,UPI,PAY-00523,Savings account,9100002523,demo.user523@example.test,SBIN0000456,PQRSX5678L,UPI25000000000523
+2025-06-07,Society maintenance,Housing,Money out,12468.39,Completed,Landlord Transfer,Debit card,PAY-00524,Savings account,9100002524,demo.user524@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000524
+2025-06-09,Books,Education,Money out,4277.27,Completed,Book House,Cash,PAY-00525,Savings account,9100002525,demo.user525@example.test,UTIB0000234,ABCDE1234F,UPI25000000000525
+11/06/2025,Metro card,Travel,Money out,333.27,Completed,Metro Services,Net banking,PAY-00526,Savings account,9100002526,demo.user526@example.test,HDFC0000123,PQRSX5678L,UPI25000000000526
+13-06-2025,Medical tests,Health,Money out,4196.46,Completed,City Pharmacy,UPI,PAY-00527,Savings account,9100002527,demo.user527@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000527
+15.06.2025,Lunch,Food,Money out,850.18,Completed,Local grocery,Debit card,PAY-00528,Savings account,9100002528,demo.user528@example.test,ICIC0000789,ABCDE1234F,UPI25000000000528
+2025-06-17,Internet bill,Bills,Money out,2829.71,Completed,Gas Agency,Cash,PAY-00529,Savings account,9100002529,demo.user529@example.test,UTIB0000234,PQRSX5678L,UPI25000000000529
+2025-06-19,Clothing,Shopping,Money out,405.7,Completed,Online Marketplace,Net banking,PAY-00530,Savings account,9100002530,demo.user530@example.test,HDFC0000123,LMNOP4321Q,UPI25000000000530
+21/06/2025,Society maintenance,Housing,Money out,14874.07,Completed,Landlord Transfer,UPI,PAY-00531,Savings account,9100002531,demo.user531@example.test,SBIN0000456,ABCDE1234F,UPI25000000000531
+23-06-2025,Stationery,Education,Money out,3930.02,Completed,Campus Store,Debit card,PAY-00532,Savings account,9100002532,demo.user532@example.test,ICIC0000789,PQRSX5678L,UPI25000000000532
+25.06.2025,Auto fare,Travel,Money out,1076.77,Failed,Fuel Station,Cash,PAY-00533,Savings account,9100002533,demo.user533@example.test,UTIB0000234,LMNOP4321Q,UPI25000000000533
+2025-06-27,Medical tests,Health,Money out,6282.17,Completed,Care Clinic,Net banking,PAY-00534,Savings account,9100002534,demo.user534@example.test,HDFC0000123,ABCDE1234F,UPI25000000000534
+2025-06-02,Milk and bread,Food,Money out,618.44,Completed,Local grocery,UPI,PAY-00535,Savings account,9100002535,demo.user535@example.test,SBIN0000456,PQRSX5678L,UPI25000000000535
+04/06/2025,Cooking gas,Bills,Money out,1425.25,Completed,Gas Agency,Debit card,PAY-00536,Savings account,9100002536,demo.user536@example.test,ICIC0000789,LMNOP4321Q,UPI25000000000536
+06-06-2025,Clothing,Shopping,Money out,4928.64,Completed,Clothing Shop,Cash,PAY-00537,Savings account,9100002537,demo.user537@example.test,UTIB0000234,ABCDE1234F,UPI25000000000537
+08.06.2025,Society maintenance,Housing,Money out,16481.27,Completed,Society Office,Net banking,PAY-00538,Savings account,9100002538,demo.user538@example.test,HDFC0000123,PQRSX5678L,UPI25000000000538
+2025-06-10,Stationery,Education,Money out,3043.76,Completed,Book House,UPI,PAY-00539,Savings account,9100002539,demo.user539@example.test,SBIN0000456,LMNOP4321Q,UPI25000000000539
+07/02/2025,Vegetables,Food,Money out,999.52,Completed,Market Store,Net banking,PAY-00166,Savings account,9100002166,demo.user166@example.test,HDFC0000123,ABCDE1234F,UPI25000000000166

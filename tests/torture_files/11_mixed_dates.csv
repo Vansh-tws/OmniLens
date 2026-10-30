@@ -1,0 +1,5 @@
+transaction_date,merchant,amount,direction
+31/01/2025,A,10,Money out
+02/02/2025,B,20,Money out
+2025-03-03,C,30,Money out
+04-03-2025,D,40,Money out

@@ -1,0 +1,14 @@
+services:
+  omnilens:
+    build: .
+    image: omnilens:5.0.3
+    container_name: omnilens
+    ports:
+      - "8000:8000"
+    environment:
+      OMNILENS_SESSION_TTL: "1800"
+      OMNILENS_MAX_SESSIONS: "12"
+      OMNILENS_MAX_UPLOAD_MB: "25"
+      OMNILENS_CORS_ORIGINS: "http://localhost:8000"
+    restart: unless-stopped
+    # Intentionally no upload/data volume: sessions remain process memory only.

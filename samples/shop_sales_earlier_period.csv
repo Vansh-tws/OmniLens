@@ -1,0 +1,146 @@
+﻿transaction_id,invoice_no,date,product,category,quantity,unit_price_inr,sales_amount_inr,cost_amount_inr,gross_profit_inr,payment_method,customer_type,area,sales_channel,customer_phone,customer_email,supplier_gstin,order_status
+TXN-00001,INV-25-00001,2025-01-03,Assam tea 500 g,Beverages,2,274.33,504.77,436,68.77,Cash,New,Nashik,Phone order,9000001000,buyer1@example.test,27PQRSX5678L1Z2,Completed
+TXN-00002,INV-25-00002,06/01/2025,Potato chips family pack,Snacks,4,38.91,143.19,108,35.19,Card,Regular,Nagpur,In store,9000001001,buyer2@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00003,INV-25-00003,09-01-2025,Toor dal 1 kg,Groceries,1,183.08,168.43,136,32.43,Bank transfer,Wholesale,Mumbai,WhatsApp order,9000001002,buyer3@example.test,27ABCDE1234F1Z5,Completed
+TXN-00004,INV-25-00004,12.01.2025,Paneer 200 g,Dairy,3,106.76,294.66,225,69.66,UPI,New,Thane,Phone order,9000001003,buyer4@example.test,27PQRSX5678L1Z2,Completed
+TXN-00005,INV-25-00005,2025-01-15,Floor cleaner 1 L,Household,5,121.4,558.44,420,138.44,Cash,Regular,Pune,In store,9000001004,buyer5@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00006,INV-25-00006,2025-01-18,Instant coffee 100 g,Beverages,2,179.01,329.38,264,65.38,Card,Wholesale,Nashik,WhatsApp order,9000001005,buyer6@example.test,27ABCDE1234F1Z5,Completed
+TXN-00007,INV-25-00007,21/01/2025,Bath soap 125 g,Personal Care,4,61.12,224.92,172,52.92,Bank transfer,New,Nagpur,Phone order,9000001006,buyer7@example.test,27PQRSX5678L1Z2,Completed
+TXN-00008,INV-25-00008,24-01-2025,Sunflower oil 1 L,Groceries,1,142.61,131.2,127,4.2,UPI,Regular,Mumbai,In store,9000001007,buyer8@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00009,INV-25-00009,27.01.2025,Digestive biscuits,Snacks,3,45.15,124.61,93,31.61,Cash,Wholesale,Thane,WhatsApp order,9000001008,buyer9@example.test,27ABCDE1234F1Z5,Completed
+TXN-00010,INV-25-00010,2025-01-02,Basmati rice 5 kg,Groceries,5,670.46,3084.12,2775,309.12,Card,New,Pune,Phone order,9000001009,buyer10@example.test,27PQRSX5678L1Z2,Completed
+TXN-00011,INV-25-00011,2025-01-05,Full cream milk 1 L,Dairy,2,71.63,131.8,112,19.8,Bank transfer,Regular,Nashik,In store,9000001010,buyer11@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00012,INV-25-00012,08/01/2025,Laundry detergent 1 kg,Household,4,138.58,509.97,436,73.97,UPI,Wholesale,Nagpur,WhatsApp order,9000001011,buyer12@example.test,27ABCDE1234F1Z5,Completed
+TXN-00013,INV-25-00013,11-01-2025,Assam tea 500 g,Beverages,1,303.43,,218,61.16,Cash,New,Mumbai,Phone order,9000001012,buyer13@example.test,27PQRSX5678L1Z2,Completed
+TXN-00014,INV-25-00014,14.01.2025,Potato chips family pack,Snacks,3,37.13,102.48,81,21.48,Card,Regular,Thane,In store,9000001013,buyer14@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00015,INV-25-00015,2025-01-17,Toor dal 1 kg,Groceries,5,165.9,763.14,680,83.14,Bank transfer,Wholesale,Pune,WhatsApp order,9000001014,buyer15@example.test,27ABCDE1234F1Z5,Completed
+TXN-00016,INV-25-00016,2025-01-20,Paneer 200 g,Dairy,2,97.25,178.94,150,28.94,UPI,New,Nashik,Phone order,9000001015,buyer16@example.test,27PQRSX5678L1Z2,Completed
+TXN-00017,INV-25-00017,23/01/2025,Floor cleaner 1 L,Household,4,113.55,417.86,336,81.86,Cash,Regular,Nagpur,In store,9000001016,buyer17@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00018,INV-25-00018,26-01-2025,Instant coffee 100 g,Beverages,1,169.2,155.66,132,23.66,Card,Wholesale,Mumbai,WhatsApp order,9000001017,buyer18@example.test,27ABCDE1234F1Z5,Completed
+TXN-00019,INV-25-00019,01.01.2025,Bath soap 125 g,Personal Care,3,63.97,176.56,129,47.56,Bank transfer,New,Thane,Phone order,9000001018,buyer19@example.test,27PQRSX5678L1Z2,Completed
+TXN-00020,INV-25-00020,2025-01-04,Sunflower oil 1 L,Groceries,5,150.06,690.28,635,55.28,UPI,Regular,Pune,In store,9000001019,buyer20@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00021,INV-25-00021,2025-01-07,Digestive biscuits,Snacks,2,46.23,85.06,62,23.06,Cash,Wholesale,Nashik,WhatsApp order,9000001020,buyer21@example.test,27ABCDE1234F1Z5,Completed
+TXN-00022,INV-25-00022,10/01/2025,Basmati rice 5 kg,Groceries,4,681.37,2507.44,2220,287.44,Card,New,Nagpur,Phone order,12345,buyer22@example.test,27PQRSX5678L1Z2,Completed
+TXN-00023,INV-25-00023,13-01-2025,Full cream milk 1 L,Dairy,1,76.39,70.28,56,14.28,Bank transfer,Regular,Mumbai,In store,9000001022,buyer23@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00024,INV-25-00024,16.01.2025,Laundry detergent 1 kg,Household,3,140.3,387.23,327,60.23,UPI,Wholesale,Thane,WhatsApp order,9000001023,buyer24@example.test,27ABCDE1234F1Z5,Completed
+TXN-00025,INV-25-00025,2025-01-19,Assam tea 500 g,Beverages,5,290.37,1335.7,1090,245.7,Cash,New,Pune,Phone order,9000001024,buyer25@example.test,27PQRSX5678L1Z2,Completed
+TXN-00026,INV-25-00026,2025-01-22,Potato chips family pack,Snacks,2,41.44,76.25,54,22.25,Card,Regular,Nashik,In store,9000001025,buyer26@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00027,INV-25-00027,25/01/2025,Toor dal 1 kg,Groceries,4,179.32,659.9,544,115.9,Bank transfer,Wholesale,Nagpur,WhatsApp order,9000001026,buyer27@example.test,27ABCDE1234F1Z5,Completed
+TXN-00028,INV-25-00028,28-01-2025,Paneer 200 g,Dairy,1,98.64,90.75,75,15.75,UPI,New,Mumbai,Phone order,9000001027,buyer28@example.test,27PQRSX5678L1Z2,Completed
+TXN-00029,INV-25-00029,03.01.2025,Floor cleaner 1 L,Household,3,114.27,315.39,252,63.39,Cash,Regular,Thane,In store,9000001028,buyer29@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00030,INV-25-00030,2025-01-06,Instant coffee 100 g,Beverages,5,169.45,779.47,660,119.47,Card,Wholesale,pune ,WhatsApp order,9000001029,buyer30@example.test,27ABCDE1234F1Z5,Completed
+TXN-00031,INV-25-00031,2025-01-09,Bath soap 125 g,Personal Care,2,60.41,111.15,86,25.15,Bank transfer,New,Nashik,Phone order,9000001030,buyer31@example.test,27PQRSX5678L1Z2,Completed
+TXN-00032,INV-25-00032,12/01/2025,Sunflower oil 1 L,Groceries,4,166.21,611.65,508,103.65,UPI,Regular,Nagpur,In store,9000001031,buyer32@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00033,INV-25-00033,15-01-2025,Digestive biscuits,Snacks,1,43.44,39.96,31,8.96,Cash,Wholesale,Mumbai,WhatsApp order,9000001032,buyer33@example.test,27ABCDE1234F1Z5,Completed
+TXN-00034,INV-25-00034,18.01.2025,Basmati rice 5 kg,Groceries,3,736.83,2033.65,1665,368.65,Card,New,Thane,Phone order,9000001033,buyer34@example.test,27PQRSX5678L1Z2,Returned
+TXN-00035,INV-25-00035,2025-01-21,Full cream milk 1 L,Dairy,5,68.23,313.86,280,33.86,Bank transfer,Regular,Pune,In store,9000001034,buyer35@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00036,INV-25-00036,2025-01-24,Laundry detergent 1 kg,Household,2,137.74,253.44,218,35.44,UPI,Wholesale,Nashik,WhatsApp order,9000001035,buyer36@example.test,27ABCDE1234F1Z5,Completed
+TXN-00037,INV-25-00037,27/01/2025,Assam tea 500 g,Beverages,4,307.63,1132.08,872,260.08,Cash,New,Nagpur,Phone order,9000001036,buyer37@example.test,27PQRSX5678L1Z2,Completed
+TXN-00038,INV-25-00038,02-01-2025,Potato chips family pack,Snacks,1,38.58,35.49,27,8.49,Card,Regular,Mumbai,In store,9000001037,buyer38@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00039,INV-25-00039,05.01.2025,Toor dal 1 kg,Groceries,3,160.31,442.46,408,34.46,Bank transfer,Wholesale,Thane,WhatsApp order,9000001038,buyer39@example.test,27ABCDE1234F1Z5,Completed
+TXN-00040,INV-25-00040,2025-01-08,Paneer 200 g,Dairy,5,94.27,433.64,375,58.64,UPI,New,Pune,Phone order,9000001039,buyer40@example.test,27PQRSX5678L1Z2,Completed
+TXN-00041,INV-25-00041,2025-01-11,Floor cleaner 1 L,Household,2,121.37,223.32,168,55.32,Cash,Regular,Nashik,In store,9000001040,buyer41@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00042,INV-25-00042,14/01/2025,Instant coffee 100 g,Beverages,4,182.13,670.24,528,142.24,Card,Wholesale,Nagpur,WhatsApp order,9000001041,buyer42@example.test,27ABCDE1234F1Z5,Completed
+TXN-00043,INV-25-00043,17-01-2025,Bath soap 125 g,Personal Care,1,57.33,52.74,43,9.74,Bank transfer,New,Mumbai,Phone order,,buyer43@example.test,27PQRSX5678L1Z2,Completed
+TXN-00044,INV-25-00044,20.01.2025,Sunflower oil 1 L,Groceries,3,161.23,444.99,381,63.99,UPI,Regular,Thane,In store,9000001043,buyer44@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00045,INV-25-00045,2025-01-23,Digestive biscuits,Snacks,5,45.38,208.75,155,53.75,Cash,Wholesale,Pune,WhatsApp order,9000001044,buyer45@example.test,27ABCDE1234F1Z5,Completed
+TXN-00046,INV-25-00046,2025-01-26,Basmati rice 5 kg,Groceries,2,720.11,1325.0,1110,215.0,Card,New,Nashik,Phone order,9000001045,buyer46@example.test,27PQRSX5678L1Z2,Completed
+TXN-00047,INV-25-00047,01/01/2025,Full cream milk 1 L,Dairy,4,67.35,247.85,224,23.85,Bank transfer,Regular,Nagpur,In store,9000001046,buyer47@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00048,INV-25-00048,04-01-2025,Laundry detergent 1 kg,Household,1,142.4,131.01,109,22.01,UPI,Wholesale,Mumbai,WhatsApp order,9000001047,buyer48@example.test,27ABCDE1234F1Z5,Completed
+TXN-00049,INV-25-00049,05.02.2025,Paneer 200 g,Dairy,3,96.78,290.34,225,65.34,Card,Wholesale,Nagpur,WhatsApp order,9000001048,buyer49@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00050,INV-25-00050,2025-02-08,Floor cleaner 1 L,Household,5,116.07,580.35,420,160.35,Bank transfer,New,Mumbai,Phone order,9000001049,buyer50@example.test,27ABCDE1234F1Z5,Completed
+TXN-00051,INV-25-00051,2025-02-11,Instant coffee 100 g,Beverages,2,177.37,354.74,264,90.74,UPI,Regular,Thane,In store,9000001050,buyer51@example.test,27PQRSX5678L1Z2,Completed
+TXN-00052,INV-25-00052,14/02/2025,Bath soap 125 g,Personal Care,4,57.19,228.76,172,56.76,Cash,Wholesale,Pune,WhatsApp order,9000001051,buyer52@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00053,INV-25-00053,17-02-2025,Sunflower oil 1 L,Groceries,1,143.02,143.02,127,16.02,Card,New,Nashik,Phone order,9000001052,buyer53@example.test,27ABCDE1234F1Z5,Completed
+TXN-00054,INV-25-00054,20.02.2025,Digestive biscuits,Snacks,3,46.31,138.93,93,45.93,Bank transfer,Regular,Nagpur,In store,9000001053,buyer54@example.test,27PQRSX5678L1Z2,Completed
+TXN-00055,INV-25-00055,2025-02-23,Basmati rice 5 kg,Groceries,5,705.65,3528.25,2775,753.25,UPI,Wholesale,Mumbai,WhatsApp order,9000001054,buyer55@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00056,INV-25-00056,2025-02-26,Full cream milk 1 L,Dairy,2,75.15,150.3,112,38.3,Cash,New,Thane,Phone order,9000001055,buyer56@example.test,27ABCDE1234F1Z5,Completed
+TXN-00057,INV-25-00057,01/02/2025,Laundry detergent 1 kg,Household,4,146.34,585.36,436,149.36,Card,Regular,Pune,In store,9000001056,buyer57@example.test,27PQRSX5678L1Z2,Completed
+TXN-00058,INV-25-00058,04-02-2025,Assam tea 500 g,Beverages,1,310.16,310.16,218,92.16,Bank transfer,Wholesale,Nashik,WhatsApp order,9000001057,buyer58@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00059,INV-25-00059,07.02.2025,Potato chips family pack,Snacks,3,43.56,130.68,81,49.68,UPI,New,Nagpur,Phone order,9000001058,buyer59@example.test,27ABCDE1234F1Z5,Completed
+TXN-00060,INV-25-00060,2025-02-10,Toor dal 1 kg,Groceries,5,171.17,855.85,680,175.85,Cash,Regular,Mumbai,In store,9000001059,buyer60@example.test,27PQRSX5678L1Z2,Completed
+TXN-00061,INV-25-00061,2025-02-13,Paneer 200 g,Dairy,2,101.91,203.82,150,53.82,Card,Wholesale,Thane,WhatsApp order,9000001060,buyer61@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00062,INV-25-00062,16/02/2025,Floor cleaner 1 L,Household,4,113.55,454.2,336,118.2,Bank transfer,New,Pune,Phone order,9000001061,buyer62@example.test,27ABCDE1234F1Z5,Completed
+TXN-00063,INV-25-00063,19-02-2025,Instant coffee 100 g,Beverages,1,167.42,167.42,132,35.42,UPI,Regular,Nashik,In store,9000001062,buyer63@example.test,27PQRSX5678L1Z2,Completed
+TXN-00064,INV-25-00064,22.02.2025,Bath soap 125 g,Personal Care,3,66.23,198.69,129,69.69,Cash,Wholesale,Nagpur,WhatsApp order,9000001063,buyer64@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00065,INV-25-00065,2025-02-25,Sunflower oil 1 L,Groceries,5,159.91,799.55,635,164.55,Card,New,Mumbai,Phone order,9000001064,buyer65@example.test,27ABCDE1234F1Z5,Completed
+TXN-00066,INV-25-00066,2025-02-28,Digestive biscuits,Snacks,2,42.38,84.76,62,22.76,Bank transfer,Regular,Thane,In store,9000001065,buyer66@example.test,27PQRSX5678L1Z2,Completed
+TXN-00067,INV-25-00067,03/02/2025,Basmati rice 5 kg,Groceries,4,715.56,2862.24,2220,642.24,UPI,Wholesale,Pune,WhatsApp order,9000001066,buyer67@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00068,INV-25-00068,06-02-2025,Full cream milk 1 L,Dairy,1,77.41,77.41,56,21.41,Cash,New,Nashik,Phone order,9000001067,buyer68@example.test,27ABCDE1234F1Z5,Completed
+TXN-00069,INV-25-00069,09.02.2025,Laundry detergent 1 kg,Household,3,156.1,468.3,327,141.3,Card,Regular,Nagpur,In store,9000001068,buyer69@example.test,27PQRSX5678L1Z2,Completed
+TXN-00070,INV-25-00070,2025-02-12,Assam tea 500 g,Beverages,5,296.32,1481.6,1090,391.6,Bank transfer,Wholesale,Mumbai,WhatsApp order,9000001069,buyer70@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00071,INV-25-00071,2025-02-15,Potato chips family pack,Snacks,2,39.79,79.58,54,25.58,UPI,New,Thane,Phone order,9000001070,buyer71@example.test,27ABCDE1234F1Z5,Completed
+TXN-00072,INV-25-00072,18/02/2025,Toor dal 1 kg,Groceries,4,158.66,634.64,544,90.64,Cash,Regular,Pune,In store,9000001071,buyer72@example.test,27PQRSX5678L1Z2,Completed
+TXN-00073,INV-25-00073,21-02-2025,Paneer 200 g,Dairy,1,95.93,95.93,75,20.93,Card,Wholesale,Nashik,WhatsApp order,9000001072,buyer73@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00074,INV-25-00074,24.02.2025,Floor cleaner 1 L,Household,3,113.94,341.82,252,89.82,Bank transfer,New,Nagpur,Phone order,9000001073,buyer74@example.test,27ABCDE1234F1Z5,Completed
+TXN-00075,INV-25-00075,2025-02-27,Instant coffee 100 g,Beverages,5,176.72,883.6,660,223.6,UPI,Regular,Mumbai,In store,9000001074,buyer75@example.test,27PQRSX5678L1Z2,Completed
+TXN-00076,INV-25-00076,2025-02-02,Bath soap 125 g,Personal Care,2,61.35,122.7,86,36.7,Cash,Wholesale,Thane,WhatsApp order,9000001075,buyer76@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00077,INV-25-00077,05/02/2025,Sunflower oil 1 L,Groceries,4,149.24,596.96,508,88.96,Card,New,Pune,Phone order,9000001076,buyer77@example.test,27ABCDE1234F1Z5,Completed
+TXN-00078,INV-25-00078,08-02-2025,Digestive biscuits,Snacks,1,42.22,42.22,31,11.22,Bank transfer,Regular,Nashik,In store,9000001077,buyer78@example.test,27PQRSX5678L1Z2,Completed
+TXN-00079,INV-25-00079,11.02.2025,Basmati rice 5 kg,Groceries,3,660.49,1981.47,1665,316.47,UPI,Wholesale,Nagpur,WhatsApp order,9000001078,buyer79@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00080,INV-25-00080,2025-02-14,Full cream milk 1 L,Dairy,5,73.25,366.25,280,86.25,Cash,New,Mumbai,Phone order,9000001079,buyer80@example.test,27ABCDE1234F1Z5,Completed
+TXN-00081,INV-25-00081,2025-02-17,Laundry detergent 1 kg,Household,2,149.31,298.62,218,80.62,Card,Regular,Thane,In store,9000001080,buyer81@example.test,27PQRSX5678L1Z2,Completed
+TXN-00082,INV-25-00082,20/02/2025,Assam tea 500 g,Beverages,4,276.15,1104.6,872,232.6,Bank transfer,Wholesale,Pune,WhatsApp order,9000001081,buyer82@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00083,INV-25-00083,23-02-2025,Potato chips family pack,Snacks,1,42.64,42.64,27,15.64,UPI,New,Nashik,Phone order,9000001082,buyer83@example.test,27ABCDE1234F1Z5,Completed
+TXN-00084,INV-25-00084,26.02.2025,Toor dal 1 kg,Groceries,3,156.92,470.76,408,62.76,Cash,Regular,Nagpur,In store,9000001083,buyer84@example.test,27PQRSX5678L1Z2,Completed
+TXN-00085,INV-25-00085,2025-02-01,Paneer 200 g,Dairy,5,92.05,460.25,375,85.25,Card,Wholesale,Mumbai,WhatsApp order,9000001084,buyer85@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00086,INV-25-00086,2025-02-04,Floor cleaner 1 L,Household,2,119.85,239.7,168,71.7,Bank transfer,New,Thane,Phone order,9000001085,buyer86@example.test,27ABCDE1234F1Z5,Completed
+TXN-00087,INV-25-00087,07/02/2025,Instant coffee 100 g,Beverages,4,172.5,690.0,528,162.0,UPI,Regular,Pune,In store,9000001086,buyer87@example.test,27PQRSX5678L1Z2,Completed
+TXN-00088,INV-25-00088,10-02-2025,Bath soap 125 g,Personal Care,1,66.97,,43,23.97,Cash,Wholesale,Nashik,WhatsApp order,9000001087,buyer88@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00089,INV-25-00089,13.02.2025,Sunflower oil 1 L,Groceries,3,164.64,493.92,381,112.92,Card,New,Nagpur,Phone order,9000001088,buyer89@example.test,27ABCDE1234F1Z5,Completed
+TXN-00090,INV-25-00090,2025-02-16,Digestive biscuits,Snacks,5,43.87,219.35,155,64.35,Bank transfer,Regular,Mumbai,In store,9000001089,buyer90@example.test,27PQRSX5678L1Z2,Completed
+TXN-00091,INV-25-00091,2025-02-19,Basmati rice 5 kg,Groceries,2,728.67,1457.34,1110,347.34,UPI,Wholesale,Thane,WhatsApp order,9000001090,buyer91@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00092,INV-25-00092,22/02/2025,Full cream milk 1 L,Dairy,4,72.74,290.96,224,66.96,Cash,New,Pune,Phone order,9000001091,buyer92@example.test,27ABCDE1234F1Z5,Completed
+TXN-00093,INV-25-00093,25-02-2025,Laundry detergent 1 kg,Household,1,156.74,156.74,109,47.74,Card,Regular,Nashik,In store,9000001092,buyer93@example.test,27PQRSX5678L1Z2,Completed
+TXN-00094,INV-25-00094,28.02.2025,Assam tea 500 g,Beverages,3,264.2,792.6,654,138.6,Bank transfer,Wholesale,Nagpur,WhatsApp order,9000001093,buyer94@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00095,INV-25-00095,2025-02-03,Potato chips family pack,Snacks,5,41.85,209.25,135,74.25,UPI,New,Mumbai,Phone order,9000001094,buyer95@example.test,27ABCDE1234F1Z5,Completed
+TXN-00096,INV-25-00096,2025-02-06,Toor dal 1 kg,Groceries,2,178.67,357.34,272,85.34,Cash,Regular,Thane,In store,9000001095,buyer96@example.test,27PQRSX5678L1Z2,Completed
+TXN-00097,INV-25-00097,07/03/2025,Bath soap 125 g,Personal Care,4,65.7,296.96,172,124.96,Bank transfer,Regular,Mumbai,In store,9000001096,buyer97@example.test,27ABCDE1234F1Z5,Completed
+TXN-00098,INV-25-00098,10-03-2025,Sunflower oil 1 L,Groceries,1,151.94,171.69,127,44.69,UPI,Wholesale,Thane,WhatsApp order,9000001097,buyer98@example.test,27PQRSX5678L1Z2,Completed
+TXN-00099,INV-25-00099,13.03.2025,Digestive biscuits,Snacks,3,42.75,144.92,93,51.92,Cash,New,Pune,Phone order,9000001098,buyer99@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00100,INV-25-00100,2025-03-16,Basmati rice 5 kg,Groceries,5,697.38,3940.2,2775,1165.2,Card,Regular,Nashik,In store,9000001099,buyer100@example.test,27ABCDE1234F1Z5,Completed
+TXN-00101,INV-25-00101,2025-03-19,Full cream milk 1 L,Dairy,2,66.34,149.93,112,37.93,Bank transfer,Wholesale,Nagpur,WhatsApp order,9000001100,buyer101@example.test,27PQRSX5678L1Z2,Completed
+TXN-00102,INV-25-00102,22/03/2025,Laundry detergent 1 kg,Household,4,137.38,620.96,436,184.96,UPI,New,Mumbai,Phone order,9000001101,buyer102@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00103,INV-25-00103,25-03-2025,Assam tea 500 g,Beverages,1,306.91,346.81,218,128.81,Cash,Regular,Thane,In store,9000001102,buyer103@example.test,27ABCDE1234F1Z5,Completed
+TXN-00104,INV-25-00104,28.03.2025,Potato chips family pack,Snacks,3,40.74,138.11,81,57.11,Card,Wholesale,Pune,WhatsApp order,9000001103,buyer104@example.test,27PQRSX5678L1Z2,Completed
+TXN-00105,INV-25-00105,2025-03-03,Toor dal 1 kg,Groceries,5,182.01,1028.36,680,348.36,Bank transfer,New,Nashik,Phone order,9000001104,buyer105@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00106,INV-25-00106,2025-03-06,Paneer 200 g,Dairy,2,104.91,237.1,150,87.1,UPI,Regular,Nagpur,In store,9000001105,buyer106@example.test,27ABCDE1234F1Z5,Completed
+TXN-00107,INV-25-00107,09/03/2025,Floor cleaner 1 L,Household,4,121.26,548.1,336,212.1,Cash,Wholesale,Mumbai,WhatsApp order,9000001106,buyer107@example.test,27PQRSX5678L1Z2,Completed
+TXN-00108,INV-25-00108,12-03-2025,Instant coffee 100 g,Beverages,1,180.69,204.18,132,72.18,Card,New,Thane,Phone order,9000001107,buyer108@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00109,INV-25-00109,15.03.2025,Bath soap 125 g,Personal Care,3,59.25,200.86,129,71.86,Bank transfer,Regular,Pune,In store,9000001108,buyer109@example.test,27ABCDE1234F1Z5,Completed
+TXN-00110,INV-25-00110,2025-03-18,Sunflower oil 1 L,Groceries,5,155.11,876.37,635,241.37,UPI,Wholesale,Nashik,WhatsApp order,9000001109,buyer110@example.test,27PQRSX5678L1Z2,Completed
+TXN-00111,INV-25-00111,2025-03-21,Digestive biscuits,Snacks,2,41.58,93.97,62,31.97,Cash,New,Nagpur,Phone order,9000001110,buyer111@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00112,INV-25-00112,24/03/2025,Basmati rice 5 kg,groceries,4,699.9,3163.55,2220,943.55,Card,Regular,Mumbai,In store,9000001111,buyer112@example.test,27ABCDE1234F1Z5,Completed
+TXN-00113,INV-25-00113,27-03-2025,Full cream milk 1 L,Dairy,1,70.46,79.62,56,23.62,Bank transfer,Wholesale,Thane,WhatsApp order,9000001112,buyer113@example.test,27PQRSX5678L1Z2,Completed
+TXN-00114,INV-25-00114,02.03.2025,Laundry detergent 1 kg,Household,34,151.51,5821.01,3706,2115.01,UPI,New,Pune,Phone order,9000001113,buyer114@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00115,INV-25-00115,2025-03-05,Assam tea 500 g,Beverages,5,308.77,1744.55,1090,654.55,Cash,Regular,Nashik,In store,9000001114,buyer115@example.test,27ABCDE1234F1Z5,Completed
+TXN-00116,INV-25-00116,2025-03-08,Potato chips family pack,Snacks,2,40.26,90.99,54,36.99,Card,Wholesale,Nagpur,WhatsApp order,9000001115,buyer116@example.test,27PQRSX5678L1Z2,Completed
+TXN-00117,INV-25-00117,11/03/2025,Toor dal 1 kg,Groceries,4,166.78,753.85,544,209.85,Bank transfer,New,Mumbai,Phone order,9000001116,buyer117@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00118,INV-25-00118,14-03-2025,Paneer 200 g,Dairy,1,91.68,103.6,75,28.6,UPI,Regular,Thane,In store,9000001117,buyer118@example.test,27ABCDE1234F1Z5,Completed
+TXN-00119,INV-25-00119,17.03.2025,Floor cleaner 1 L,Household,3,120.73,409.27,252,157.27,Cash,Wholesale,Pune,WhatsApp order,9000001118,buyer119@example.test,27PQRSX5678L1Z2,Completed
+TXN-00120,INV-25-00120,2025-03-20,Instant coffee 100 g,Beverages,5,169.52,957.79,660,297.79,Card,New,Nashik,Phone order,9000001119,buyer120@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00121,INV-25-00121,2025-03-23,Bath soap 125 g,Personal Care,2,65.38,147.76,86,61.76,Bank transfer,Regular,Nagpur,In store,9000001120,buyer121@example.test,27ABCDE1234F1Z5,Completed
+TXN-00122,INV-25-00122,26/03/2025,Sunflower oil 1 L,Groceries,4,145.67,658.43,508,150.43,UPI,Wholesale,Mumbai,WhatsApp order,9000001121,buyer122@example.test,27PQRSX5678L1Z2,Completed
+TXN-00123,INV-25-00123,01-03-2025,Digestive biscuits,Snacks,1,42.68,48.23,31,17.23,Cash,New,Thane,Phone order,9000001122,buyer123@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00124,INV-25-00124,04.03.2025,Basmati rice 5 kg,Groceries,3,640.94,2172.79,1665,507.79,Card,Regular,Pune,In store,9000001123,buyer124@example.test,27ABCDE1234F1Z5,Completed
+TXN-00125,INV-25-00125,2025-03-07,Full cream milk 1 L,Dairy,5,71.56,404.31,280,124.31,Bank transfer,Wholesale,Nashik,WhatsApp order,9000001124,buyer125@example.test,27PQRSX5678L1Z2,Completed
+TXN-00126,INV-25-00126,2025-03-10,Laundry detergent 1 kg,Household,2,138.57,313.17,218,95.17,UPI,New,Nagpur,Phone order,9000001125,buyer126@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00127,INV-25-00127,13/03/2025,Assam tea 500 g,Beverages,4,284.12,1284.22,872,412.22,Cash,Regular,Mumbai,In store,9000001126,buyer127@example.test,27ABCDE1234F1Z5,Completed
+TXN-00128,INV-25-00128,16-03-2025,Potato chips family pack,Snacks,1,38.03,42.97,27,15.97,Card,Wholesale,Thane,WhatsApp order,9000001127,buyer128@example.test,27PQRSX5678L1Z2,Completed
+TXN-00129,INV-25-00129,19.03.2025,Toor dal 1 kg,Groceries,3,160.18,543.01,408,135.01,Bank transfer,New,Pune,Phone order,9000001128,buyer129@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00130,INV-25-00130,2025-03-22,Paneer 200 g,Dairy,5,94.68,534.94,375,159.94,UPI,Regular,Nashik,In store,9000001129,buyer130@example.test,27ABCDE1234F1Z5,Completed
+TXN-00131,INV-25-00131,2025-03-25,Floor cleaner 1 L,Household,2,114.86,259.58,168,91.58,Cash,Wholesale,Nagpur,WhatsApp order,9000001130,buyer131@example.test,27PQRSX5678L1Z2,Completed
+TXN-00132,INV-25-00132,28/03/2025,Instant coffee 100 g,Beverages,4,163.82,740.47,528,212.47,Card,New,Mumbai,Phone order,9000001131,buyer132@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00133,INV-25-00133,03-03-2025,Bath soap 125 g,Personal Care,1,61.2,69.16,43,26.16,Bank transfer,Regular,Thane,In store,9000001132,buyer133@example.test,27ABCDE1234F1Z5,Completed
+TXN-00134,INV-25-00134,06.03.2025,Sunflower oil 1 L,Groceries,3,164.16,556.5,381,175.5,UPI,Wholesale,Pune,WhatsApp order,9000001133,buyer134@example.test,27PQRSX5678L1Z2,Completed
+TXN-00135,INV-25-00135,2025-03-09,Digestive biscuits,Snacks,5,46.39,262.1,155,107.1,Cash,New,Nashik,Phone order,9000001134,buyer135@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00136,INV-25-00136,2025-03-12,Basmati rice 5 kg,Groceries,2,694.79,1570.23,1110,460.23,Card,Regular,Nagpur,In store,9000001135,buyer136@example.test,27ABCDE1234F1Z5,Completed
+TXN-00137,INV-25-00137,15/03/2025,Full cream milk 1 L,Dairy,4,66.26,299.5,224,75.5,Bank transfer,Wholesale,Mumbai,WhatsApp order,9000001136,buyer137@example.test,27PQRSX5678L1Z2,Completed
+TXN-00138,INV-25-00138,18-03-2025,Laundry detergent 1 kg,Household,1,157.36,177.82,109,68.82,UPI,New,Thane,Phone order,9000001137,buyer138@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00139,INV-25-00139,21.03.2025,Assam tea 500 g,Beverages,3,309.38,1048.8,654,394.8,Cash,Regular,Pune,In store,9000001138,buyer139@example.test,27ABCDE1234F1Z5,Completed
+TXN-00140,INV-25-00140,2025-03-24,Potato chips family pack,Snacks,5,41.44,234.14,135,99.14,Card,Wholesale,Nashik,WhatsApp order,9000001139,buyer140@example.test,27PQRSX5678L1Z2,Completed
+TXN-00141,INV-25-00141,2025-03-27,Toor dal 1 kg,Groceries,2,169.58,383.25,272,111.25,Bank transfer,New,Nagpur,Phone order,9000001140,buyer141@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00142,INV-25-00142,02/03/2025,Paneer 200 g,Dairy,4,97.22,439.43,300,139.43,UPI,Regular,Mumbai,In store,9000001141,buyer142@example.test,27ABCDE1234F1Z5,Completed
+TXN-00143,INV-25-00143,05-03-2025,Floor cleaner 1 L,Household,1,127.02,143.53,84,59.53,Cash,Wholesale,Thane,WhatsApp order,9000001142,buyer143@example.test,27PQRSX5678L1Z2,Completed
+TXN-00144,INV-25-00144,08.03.2025,Instant coffee 100 g,Beverages,3,183.4,621.73,396,225.73,Card,New,Pune,Phone order,9000001143,buyer144@example.test,27LMNOP4321Q1Z7,Completed
+TXN-00027,INV-25-00027,25/01/2025,Toor dal 1 kg,Groceries,4,179.32,659.9,544,115.9,Bank transfer,Wholesale,Nagpur,WhatsApp order,9000001026,buyer27@example.test,27ABCDE1234F1Z5,Completed

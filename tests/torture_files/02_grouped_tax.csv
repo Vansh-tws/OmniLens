@@ -1,0 +1,13 @@
+Taxpayer Type,Income Range,Income (Count),Income (Sum),Income (Average)
+Individual,0-2.5 lakh,100,8000000.0,80000
+Individual,2.5-5 lakh,70,24500000.0,350000
+Individual,5-10 lakh,40,28000000.0,700000
+HUF,0-2.5 lakh,20,1600000.0,80000
+HUF,2.5-5 lakh,14,4900000.0,350000
+HUF,5-10 lakh,8,5600000.0,700000
+Company,0-2.5 lakh,50,4000000.0,80000
+Company,2.5-5 lakh,35,12250000.0,350000
+Company,5-10 lakh,20,14000000.0,700000
+All,0-2.5 lakh,170,13600000.0,80000
+All,2.5-5 lakh,119,41650000.0,350000
+All,5-10 lakh,68,47600000.0,700000
