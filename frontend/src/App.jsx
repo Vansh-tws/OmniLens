@@ -688,7 +688,9 @@ function App() {
     e.stopPropagation();
     setDragActive(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      setFile(e.dataTransfer.files[0]);
+      const dropped = e.dataTransfer.files[0];
+      setFile(dropped);
+      analyzeFile(dropped);
     }
   }
 
@@ -1207,7 +1209,13 @@ function App() {
                     id="main-file-input"
                     type="file"
                     accept=".csv,.xlsx,.xls,.json,.txt,.html,.htm,.pdf"
-                    onChange={(e) => setFile(e.target.files?.[0] || null)}
+                    onChange={(e) => {
+                      const chosen = e.target.files?.[0] || null;
+                      if (chosen) {
+                        setFile(chosen);
+                        analyzeFile(chosen);
+                      }
+                    }}
                   />
                   <div className="upload-icon-circle">↑</div>
                   <h3>{t.uploadTitle}</h3>
@@ -1249,16 +1257,30 @@ function App() {
                         <small>{(file.size / 1024).toFixed(1)} KB</small>
                       </div>
                     </div>
-                    <button className="remove-file-btn" onClick={() => setFile(null)}>
+                    <button
+                      className="remove-file-btn"
+                      onClick={() => {
+                        setFile(null);
+                        const inputEl = document.getElementById("main-file-input");
+                        if (inputEl) inputEl.value = "";
+                      }}
+                    >
                       Remove
                     </button>
                   </div>
                 )}
 
                 <button
+                  type="button"
                   className="primary-btn upload-action-btn"
-                  onClick={() => analyzeFile(file)}
-                  disabled={!file || busy}
+                  onClick={() => {
+                    if (file) {
+                      analyzeFile(file);
+                    } else {
+                      document.getElementById("main-file-input")?.click();
+                    }
+                  }}
+                  disabled={busy}
                 >
                   {busy ? t.working : file ? t.analyze : t.browse}
                 </button>
