@@ -1858,7 +1858,14 @@ function App() {
 
                 {answer && (
                   <div className="answer-display-box">
-                    <span className="answer-badge-tag">OmniLens Direct Answer</span>
+                    <div style={{ display: "flex", gap: "8px", alignItems: "center", margin: "0 0 8px 0", flexWrap: "wrap" }}>
+                      <span className="answer-badge-tag">OmniLens Direct Answer</span>
+                      {answer.evidence_indices?.length > 0 && (
+                        <span style={{ fontSize: "11px", color: "var(--forest-green)", fontWeight: 600, background: "#E8F4EC", padding: "2px 8px", borderRadius: "12px" }}>
+                          ✓ Backed by {answer.evidence_indices.length} source row{answer.evidence_indices.length === 1 ? "" : "s"}
+                        </span>
+                      )}
+                    </div>
                     <h3 className="answer-main-text">{answer.answer}</h3>
                     <p className="answer-calculation-method">
                       <strong>Method:</strong> {answer.how_calculated}
