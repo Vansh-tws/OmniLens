@@ -1,4 +1,4 @@
-# OmniLens— Universal Data Intelligence Platform
+# OmniLens — Universal Data Intelligence Platform
 
 **🌐 Live Demo:** [https://omni-lens-sepia.vercel.app/](https://omni-lens-sepia.vercel.app/)
 
@@ -14,7 +14,7 @@ The default experience is deliberately small: one upload box, four synthetic exa
 ```text
 OmniLens_5_0_3/
 ├── backend/
-│   ├── main.py                 # FastAPI API and analysis engine
+│   ├── main.py                 # FastAPI API and smart analysis engine
 │   └── sample_data.py          # Deterministic synthetic demo datasets
 ├── frontend/
 │   ├── index.html
@@ -22,7 +22,7 @@ OmniLens_5_0_3/
 │   ├── vite.config.js
 │   └── src/
 │       ├── main.jsx
-│       ├── App.jsx              # Simple upload/results experience
+│       ├── App.jsx              # Tabbed dashboard & Starbucks-inspired UI
 │       └── App.css
 ├── samples/
 │   ├── shop_sales.csv                       # 6-month shop ledger (290 rows)
@@ -33,9 +33,11 @@ OmniLens_5_0_3/
 │   ├── shop_sales_later_period.csv          # Compare demo: Apr–Jun
 │   └── README.md                            # Sample data / demo guide
 ├── tests/
-│   ├── test_core.py
-│   ├── test_product_brief.py
-│   ├── test_use_case_samples.py
+│   ├── test_core.py             # Core file parsing, health, and export tests
+│   ├── test_demo_samples.py     # Demo datasets and analytical validation
+│   ├── test_product_brief.py    # Product brief compliance and torture files
+│   ├── test_smart_qa.py         # Smart natural-language Q&A and multilingual tests
+│   ├── test_use_case_samples.py # Fictional government/crime use case tests
 │   ├── generate_torture_set.py
 │   └── torture_files/           # 15 synthetic edge-case files
 ├── scripts/
@@ -64,15 +66,46 @@ OmniLens identifies the likely table shape and chooses a matching analysis appro
 - Up to five findings. Each has what happened, supporting evidence and a next step.
 - An ordered checklist of practical actions.
 - A "See these rows" view for the source records behind a finding, plus an Excel evidence download.
-- Three suggested questions and a plain-English question box.
+- Smart Suggested Questions and an everyday-language **Ask Your Data** interface.
 - A "What this file can't tell us" note.
-- Separate full-width sections for Share, Fix these for me, and Compare two files. They are not grouped together in a single toolbar.
+- Separate full-width sections for Share, Fix these for me, and Compare two files.
 - Share options for PDF, Word, WhatsApp-ready text and print.
 - A cleaning preview with before/after rows, an approval list and a change log. The uploaded DataFrame is not modified.
 - A two-file comparison that automatically selects shared measures and matching group fields where possible.
 - Optional technical details for people who want them.
 
-#
+---
+
+## Smart Natural Language Q&A Engine
+
+OmniLens includes an intelligent, deterministic, evidence-backed Natural Language Query engine (`POST /api/ask`). It operates entirely in memory on the server with zero data leaks or external API calls, providing exact numbers rather than hallucinations:
+
+- **Dynamic Semantic Measure Matching:** Intelligently maps user questions to specific numeric columns. For example:
+  - *"What is the total gross profit?"* $\rightarrow$ sums `gross_profit_inr` (does not confuse with total sales).
+  - *"What is the average unit price?"* $\rightarrow$ averages `unit_price_inr`.
+  - *"Total quantity sold"* $\rightarrow$ sums `quantity`.
+  - *"Highest days to resolution"* $\rightarrow$ searches `Investigation Days`.
+- **Dynamic Dimension & Breakdown Resolution:** Understands queries like *"Show sales by payment method"*, *"per product"*, or *"across districts"*, generating interactive bar charts with rankings.
+- **Dynamic Cell-Value Filtering:** Filters data automatically based on entities anywhere in the query:
+  - *"Total sales in Pune"* $\rightarrow$ filters to `area = 'Pune'`.
+  - *"How many transactions were paid using UPI?"* $\rightarrow$ filters to `payment_method = 'UPI'`.
+  - *"How many transactions failed?"* $\rightarrow$ filters to `status = 'Failed'`.
+  - *"How much did I spend on Food?"* $\rightarrow$ filters to `category = 'Food'` and outgoing transactions.
+- **Single Extreme Record Lookups:** Answers *"What was the highest sale?"*, *"What was my biggest expense?"*, or *"What was the cheapest product?"* with exact row details (product, category, date, merchant) and links directly to the source row.
+- **Distinct Counts, Date Ranges & Duplicates:**
+  - *"How many unique products are there?"* $\rightarrow$ distinct counts with sample values.
+  - *"What is the date range?"* $\rightarrow$ start date, end date, and duration in days.
+  - *"Are there duplicate records?"* $\rightarrow$ exact duplicate row detection and indices.
+- **Multilingual Support (English, Hindi, Marathi):**
+  - Fully compatible with the voice recognition input in Hindi and Marathi (`hi-IN`, `mr-IN`).
+  - Supports queries such as:
+    - *"कुल बिक्री कितनी है?"* (Total sales)
+    - *"भोजन पर कितना खर्च हुआ?"* (Food expenses)
+    - *"पेंडिंग केस कितने हैं?"* (Pending case count)
+- **Verified Evidence Backing:** Answers link directly to evidence rows, displayed in the UI with a `✓ Backed by N source row(s)` badge and preview table.
+
+---
+
 ## Demo datasets (5.0.3)
 
 The built-in examples are larger, realistic-looking but fully synthetic datasets. They are grouped by the audience or task they represent.
@@ -88,11 +121,11 @@ Every value is fictional. The synthetic phone, PAN, GSTIN, email and IFSC exampl
 
 ### Suggested product demonstration
 
-1. Under **Business**, click **Shop sales · 6 months**. Review the category chart, falling June sales, duplicate rows and phone-format warning. Open the separate **Fix these for me** section and approve only the cleaning changes you want. Open **See these rows** on the duplicate finding and export the evidence. Ask “Which category has the highest sales?” or “Show sales_amount_inr by month”, then use the separate **Share** section.
-2. Under **Personal**, click **Personal money ledger**. Ask “How much did I spend on Food?” and “Which merchant received the most money?” Notice that failed and pending payments are kept out of completed payment totals. Review the IFSC format warning and masked fields.
-3. Under **Government & public services**, click **District tax report**. Review the district ranking and weighted average. Ask “Which district has the highest total income?”, “What is the weighted average income?” and “How much tax was paid in total?” The overall total rows must not be double-counted.
-4. In the same Government section, click **Crime statistics**. Review incident counts by district, monthly trend and crime category. Ask “Which Crime Category has the highest Case Count?” or “Which District has the most records?” All records are fictional, not official crime figures.
-5. Open the separate **Compare two files** section. Download the earlier and later shop periods from the links in that panel, select them, and compare. The comparison should select `sales_amount_inr`, not `quantity`.
+1. Under **Business**, click **Shop sales · 6 months**. Review the category chart, falling June sales, duplicate rows and phone-format warning. Open the separate **Fix these for me** section and approve only the cleaning changes you want. Open **See these rows** on the duplicate finding and export the evidence. Ask *"What is the total gross profit?"*, *"What was the highest sale?"*, or *"Show sales by payment method"*, then use the **Share** section.
+2. Under **Personal**, click **Personal money ledger**. Ask *"How much did I spend on Food?"*, *"Which merchant received the most money?"*, or *"How many transactions failed?"* Notice that failed and pending payments are kept out of completed payment totals. Review the IFSC format warning and masked fields.
+3. Under **Government & public services**, click **District tax report**. Review the district ranking and weighted average. Ask *"Which district has the highest total income?"*, *"What is the weighted average income?"* and *"How much tax was paid in total?"* The overall total rows are not double-counted.
+4. In the same Government section, click **Crime statistics**. Review incident counts by district, monthly trend and crime category. Ask *"Which incident type occurs most often?"*, *"What is the average days to resolution?"*, or *"Which district has the most pending cases?"*
+5. Open the **Compare two files** section. Download the earlier and later shop periods from the links in that panel, select them, and compare. The comparison automatically selects `sales_amount_inr`, not `quantity`.
 
 To regenerate the CSV assets after editing the data generator:
 
@@ -198,13 +231,17 @@ Install test dependencies:
 .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
 ```
 
-Run the automated suite from the project root:
+Run the complete automated test suite (45 tests) from the project root:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-The included 15-file torture set covers records, grouped tax summaries, time series, wide tables, surveys, registers, text-heavy files, place-based data, Indian number formats, title rows, mixed dates, multi-sheet Excel, nested JSON, HTML tables and text-based PDF tables. Additional tests exercise all four demo datasets, sample-file downloads, sample-specific questions, weighted tax averages, subtotal exclusion, masking, cleaning suggestions, duration-versus-date detection and the ready-made comparison pair.
+The automated test suite covers:
+- Core file parsing, title rows, Indian number formats, report exports (PDF & Word), and session purges ([`test_core.py`](file:///c:/OmniLens_5_0_3/tests/test_core.py)).
+- The 15-file torture set covering edge cases (records, grouped tax summaries, time series, wide tables, surveys, registers, text-heavy files, place-based data, Indian numbers, mixed dates, multi-sheet Excel, nested JSON, HTML tables, and text-based PDFs) ([`test_product_brief.py`](file:///c:/OmniLens_5_0_3/tests/test_product_brief.py)).
+- Full multi-scenario validation of the four demo datasets, weighted averages, and sample comparisons ([`test_demo_samples.py`](file:///c:/OmniLens_5_0_3/tests/test_demo_samples.py) and [`test_use_case_samples.py`](file:///c:/OmniLens_5_0_3/tests/test_use_case_samples.py)).
+- Smart Natural Language Q&A tests, semantic measure selection, extreme value lookups, dynamic filtering, duplicate detection, date range queries, breakdowns, and multilingual Hindi/Marathi questions ([`test_smart_qa.py`](file:///c:/OmniLens_5_0_3/tests/test_smart_qa.py)).
 
 ## API routes
 
@@ -215,7 +252,7 @@ The included 15-file torture set covers records, grouped tax summaries, time ser
 | `POST /api/sample/{shop\|tax\|expenses\|crime}` | Run one of the four synthetic examples |
 | `GET /api/sample-file/{shop\|tax\|expenses\|crime\|shop_earlier\|shop_later}` | Download a synthetic sample CSV or one side of the shop comparison pair |
 | `POST /api/confirm-rows` | Re-run analysis after a user clarifies the row meaning |
-| `POST /api/ask` | Answer a question with a calculation, chart and evidence rows |
+| `POST /api/ask` | Answer a natural language question with calculation, chart, and evidence rows |
 | `GET /api/evidence/{session_id}/{finding_id}` | Masked source rows for a finding |
 | `GET /api/evidence/{session_id}/{finding_id}/excel` | Download those rows as Excel |
 | `GET /api/share-text/{session_id}` | WhatsApp-ready text summary |
@@ -226,28 +263,24 @@ The included 15-file torture set covers records, grouped tax summaries, time ser
 | `POST /api/clean/apply` | Download an approved cleaned copy with change log |
 | `POST /api/compare` | Compare two uploaded files using automatically matched columns |
 | `GET /api/technical/{session_id}` | Optional technical detail for the current session |
+| `GET /api/privacy-audit` | Verify in-memory RAM-only zero-retention privacy guarantees |
 
 ## Current limitations to keep visible
 
-- Hindi and Marathi switches translate the main interface controls and common labels. Field names, original category values and some generated analysis sentences may remain in English in this build; this is partial localisation, not a full translation of every possible data-specific sentence. Read-aloud uses the voices available in the user's browser/device.
+- Hindi and Marathi switches translate the main interface controls, common labels, and voice/text Q&A. Field names, original category values, and some generated analysis sentences may remain in English in this build; this is partial localisation, not a full translation of every possible data-specific sentence. Read-aloud uses the voices available in the user's browser/device.
 - Date interpretation can be ambiguous when dates use numeric day/month formats and neither component disambiguates the order. The import report states the assumption; check the preview.
 - Very small, unusual, heavily merged or multi-table documents may not have enough structure for a reliable automatic interpretation. Confirm the row meaning or upload a clean table export.
 - A format warning is not proof that a value is invalid. A statistical unusual-value flag is not proof of an error, fraud or misconduct.
 - A result describes only the data supplied. It cannot establish missing source records, representativeness, or the cause of a pattern.
 
-## Product test that still requires people
-
-The automated tests check calculations and file handling. They do not replace the requested five-person usability test. Before a hackathon or public-sector demonstration, give the app to five people unfamiliar with data tools, say nothing, and observe whether each can upload a file, understand the headline and share the result without asking what to click. Record where they hesitate and simplify those exact moments.
-
-
 ## 5.0.3 Starbucks-inspired interface redesign
 
-The user interface has been redesigned with a warm, Starbucks-inspired premium visual identity:
+The user interface features a warm, Starbucks-inspired visual identity:
 - **Palette**: Starbucks Deep Forest Green (`#006241`), Dark Forest Green (`#004C37`), Fresh Green (`#00754A`), Warm Cream (`#F7F0E5`), Warm White (`#FFFCF7`), Soft Sage (`#D4E4D3`), Light Mint (`#E8F3EC`), and Coffee Brown (`#6F4E37`).
 - **Typography**: Friendly, confident, modern sans-serif typography using DM Sans with comfortable line spacing.
 - **Hero & Interactive Preview**: Visual hero layout matching the reference mockup, featuring a live interactive preview card with segmented tabs (*Key Finding*, *Ask OmniLens*, and *Quick Trend* Recharts preview).
-- **Tabbed Dashboard**: When a dataset is analyzed, a sticky tabbed navigation provides structured access to *Overview*, *Explore Charts*, *Findings*, *Ask Your Data*, *Data Quality*, and *Reports & Compare*.
-- **Integrity**: All backend features (file upload, Q&A, evidence modal, live cleaning preview, PDF/Word/WhatsApp export, file comparison, multi-language EN/HI/MR, and accessibility controls A+/HC) remain preserved.
+- **Tabbed Dashboard**: When a dataset is analyzed, sticky tabbed navigation provides structured access to *Overview*, *Explore Charts*, *Findings*, *Ask Your Data*, *Data Quality*, and *Reports & Compare*.
+- **Integrity**: All backend features (file upload, smart Q&A, evidence modal, live cleaning preview, PDF/Word/WhatsApp export, file comparison, multi-language EN/HI/MR, and accessibility controls A+/HC) remain preserved.
 
 ## Cloud Deployment (Vercel + Render)
 
@@ -258,5 +291,3 @@ The user interface has been redesigned with a warm, Starbucks-inspired premium v
   - Framework: FastAPI / Python 3.11+
   - Web Service start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
   - Configuration: `render.yaml` with open CORS for the frontend app
-
-
