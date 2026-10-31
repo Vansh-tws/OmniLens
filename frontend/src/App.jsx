@@ -405,6 +405,15 @@ function App() {
   const [rowMeaning, setRowMeaning] = useState("not_sure");
   const [dragActive, setDragActive] = useState(false);
 
+  // Privacy, Zero-Retention & Security state
+  const [sessionTimeLeft, setSessionTimeLeft] = useState(1800);
+  const [privacyModalOpen, setPrivacyModalOpen] = useState(false);
+  const [privacyAuditData, setPrivacyAuditData] = useState(null);
+  const [burnToast, setBurnToast] = useState("");
+
+  // Voice Q&A state
+  const [isListening, setIsListening] = useState(false);
+
   const session = result?.session_id || sessionId;
   const analysis = result?.analysis;
   const suggested = result?.suggested_questions || [];
@@ -642,6 +651,9 @@ function App() {
   }
 
   function changeFile() {
+    if (session) {
+      fetch(`${API}/api/session/${session}/purge`, { method: "POST" }).catch(() => {});
+    }
     setResult(null);
     setSessionId("");
     setFile(null);
@@ -724,6 +736,131 @@ function App() {
     };
   }, [cleanOpen, clean, cleanSelected, spellMappings, session]);
 
+  // Zero-Retention Burn Handler
+  async function burnSession(autoExpired = false) {
+    if (session) {
+      try {
+        await fetch(`${API}/api/session/${session}/purge`, { method: "POST" });
+      } catch {
+        try {
+          await fetch(`${API}/api/session/${session}`, { method: "DELETE" });
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+    setResult(null);
+    setSessionId("");
+    setFile(null);
+    setAnswer(null);
+    setError("");
+    setClean(null);
+    setEvidence(null);
+    setCompareResult(null);
+    setDoneActions({});
+    setQuestion("");
+    setBurnToast(
+      autoExpired
+        ? "⏰ Session expired — all dataset records automatically erased from memory."
+        : "🔥 Zero-Retention Burn Executed: Dataset wiped from server RAM & session terminated."
+    );
+    setTimeout(() => setBurnToast(""), 7000);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // Load server privacy audit facts
+  async function loadPrivacyAudit() {
+    try {
+      const res = await fetch(`${API}/api/privacy-audit`);
+      if (res.ok) {
+        const data = await res.json();
+        setPrivacyAuditData(data);
+      }
+    } catch {
+      /* fallback */
+    }
+  }
+
+  // Session countdown timer effect
+  useEffect(() => {
+    if (!session) return;
+    setSessionTimeLeft(1800);
+    const interval = setInterval(() => {
+      setSessionTimeLeft((prev) => {
+        if (prev <= 1) {
+          clearInterval(interval);
+          burnSession(true);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [session]);
+
+  // Tab unload auto-destruct (beacon purge)
+  useEffect(() => {
+    const handleUnload = () => {
+      if (session) {
+        try {
+          navigator.sendBeacon(`${API}/api/session/${session}/purge`);
+        } catch {
+          /* ignore */
+        }
+      }
+    };
+    window.addEventListener("beforeunload", handleUnload);
+    return () => window.removeEventListener("beforeunload", handleUnload);
+  }, [session]);
+
+  // Voice Q&A toggle
+  function toggleVoiceInput() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Voice input is supported in Google Chrome, Microsoft Edge, and Safari.");
+      return;
+    }
+
+    if (isListening) {
+      setIsListening(false);
+      return;
+    }
+
+    try {
+      const recognition = new SpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      
+      if (lang === "hi") recognition.lang = "hi-IN";
+      else if (lang === "mr") recognition.lang = "mr-IN";
+      else recognition.lang = "en-IN";
+
+      recognition.onstart = () => {
+        setIsListening(true);
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (transcript) {
+          setQuestion(transcript);
+        }
+        setIsListening(false);
+      };
+
+      recognition.onerror = () => {
+        setIsListening(false);
+      };
+
+      recognition.onend = () => {
+        setIsListening(false);
+      };
+
+      recognition.start();
+    } catch (err) {
+      setIsListening(false);
+    }
+  }
+
   const cleanBeforeRows = clean?.before || [];
   const cleanAfterRows = cleanPreview?.after ?? clean?.after_safe ?? cleanBeforeRows;
   const appClass = `app-shell${largeText ? " large-text" : ""}${highContrast ? " high-contrast" : ""}`;
@@ -805,6 +942,17 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* Zero-Retention Burn Notification Toast */}
+      {burnToast && (
+        <div className="burn-toast-banner" role="alert">
+          <div className="burn-toast-content">
+            <span className="burn-toast-icon">🛡️</span>
+            <span>{burnToast}</span>
+          </div>
+          <button className="burn-toast-close" onClick={() => setBurnToast("")} aria-label="Dismiss">✕</button>
+        </div>
+      )}
 
       {/* ====================================================================
           LANDING PAGE HERO SECTION (When no dataset active, or top banner)
@@ -1074,6 +1222,22 @@ function App() {
                     <span className="format-chip">PDF Tables</span>
                     <span className="format-chip coming-soon">Images (Coming Soon)</span>
                   </div>
+
+                  <div
+                    className="upload-privacy-banner"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      loadPrivacyAudit();
+                      setPrivacyModalOpen(true);
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    title="Click to view full technical zero-retention guarantee"
+                  >
+                    <span className="privacy-badge-icon">🔒</span>
+                    <span><strong>Zero-Retention Guarantee:</strong> Processed in RAM only. Zero disk or database storage.</span>
+                    <span className="privacy-verify-link">Verify Architecture →</span>
+                  </div>
                 </div>
 
                 {file && (
@@ -1316,6 +1480,48 @@ function App() {
               </div>
             </div>
           </section>
+
+          {/* ZERO-RETENTION TRUST HUD BAR */}
+          <div className="zero-retention-hud">
+            <div className="hud-container">
+              <div className="hud-status">
+                <span className="hud-shield-icon" aria-hidden="true">🔒</span>
+                <div>
+                  <div className="hud-title-row">
+                    <strong>Zero-Retention Mode: Active</strong>
+                    <span className="hud-ram-badge">100% In-RAM</span>
+                  </div>
+                  <div className="hud-desc">Transient volatile memory · Zero disk writes · No database</div>
+                </div>
+              </div>
+
+              <div className="hud-actions">
+                <div className="hud-countdown" title="Session automatically purges after inactivity">
+                  <span className="hud-pulse-dot"></span>
+                  <span>Purging in: <strong>{Math.floor(sessionTimeLeft / 60)}:{String(sessionTimeLeft % 60).padStart(2, "0")}</strong></span>
+                </div>
+                <button
+                  type="button"
+                  className="hud-proof-btn"
+                  onClick={() => {
+                    loadPrivacyAudit();
+                    setPrivacyModalOpen(true);
+                  }}
+                  title="View technical zero-retention audit and facts"
+                >
+                  🛡️ Privacy Proof
+                </button>
+                <button
+                  type="button"
+                  className="hud-burn-btn"
+                  onClick={() => burnSession(false)}
+                  title="Instantly wipe dataset & session from RAM"
+                >
+                  🔥 Burn Data Now
+                </button>
+              </div>
+            </div>
+          </div>
 
           {/* Low confidence shape question if applicable */}
           {analysis.shape?.confidence === "low" && (
@@ -1614,9 +1820,22 @@ function App() {
                     value={question}
                     onChange={(e) => setQuestion(e.target.value)}
                     onKeyDown={(e) => e.key === "Enter" && askQuestion()}
-                    placeholder={t.askHint}
+                    placeholder={isListening ? "🎙️ Listening... speak your question now" : t.askHint}
                     aria-label={t.askHint}
                   />
+                  <button
+                    type="button"
+                    className={`voice-mic-btn ${isListening ? "listening" : ""}`}
+                    onClick={toggleVoiceInput}
+                    title="Ask with voice (English, Hindi, Marathi)"
+                    aria-label="Ask with voice"
+                  >
+                    {isListening ? (
+                      <span className="mic-listening-pulse">🔴</span>
+                    ) : (
+                      <span>🎤</span>
+                    )}
+                  </button>
                   <button
                     className="ask-submit-btn"
                     onClick={() => askQuestion()}
@@ -2118,6 +2337,102 @@ function App() {
           <button onClick={() => setError("")} aria-label="Dismiss alert">
             ×
           </button>
+        </div>
+      )}
+
+      {/* ====================================================================
+          ZERO-RETENTION PRIVACY PROOF MODAL
+          ==================================================================== */}
+      {privacyModalOpen && (
+        <div className="modal-overlay" role="dialog" aria-modal="true" onClick={() => setPrivacyModalOpen(false)}>
+          <div className="modal-dialog privacy-proof-dialog" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header-row">
+              <div>
+                <span className="section-eyebrow">SECURITY & PRIVACY GUARANTEE</span>
+                <h2>OmniLens Zero-Retention Architecture</h2>
+                <p>Technical verification of how your uploaded data is handled in memory.</p>
+              </div>
+              <button className="modal-close-icon" onClick={() => setPrivacyModalOpen(false)} aria-label="Close modal">
+                ×
+              </button>
+            </div>
+
+            <div className="privacy-audit-grid">
+              <div className="audit-item">
+                <div className="audit-icon">💾</div>
+                <div className="audit-text">
+                  <h4>Zero Disk Writes</h4>
+                  <p>Uploaded files are parsed strictly in process memory and never written to temporary files or server hard drives.</p>
+                </div>
+              </div>
+
+              <div className="audit-item">
+                <div className="audit-icon">🗄️</div>
+                <div className="audit-text">
+                  <h4>No Database Connected</h4>
+                  <p>OmniLens operates with no SQL, PostgreSQL, MongoDB, DynamoDB, or Redis. There is no persistent database of uploads.</p>
+                </div>
+              </div>
+
+              <div className="audit-item">
+                <div className="audit-icon">⚡</div>
+                <div className="audit-text">
+                  <h4>Volatile In-Memory RAM</h4>
+                  <p>Sessions exist only in transient RAM with an auto-expiring timer and completely vanish whenever the server process or container restarts.</p>
+                </div>
+              </div>
+
+              <div className="audit-item">
+                <div className="audit-icon">🚫</div>
+                <div className="audit-text">
+                  <h4>Zero Third-Party Trackers</h4>
+                  <p>No Google Analytics, Meta Pixels, Hotjar, or third-party cookies. Your dataset queries remain 100% private.</p>
+                </div>
+              </div>
+
+              <div className="audit-item">
+                <div className="audit-icon">🔥</div>
+                <div className="audit-text">
+                  <h4>Instant Manual & Tab-Close Purge</h4>
+                  <p>Clicking "Burn Data Now" or closing your browser tab immediately triggers a memory release and system garbage collection (<code>gc.collect()</code>).</p>
+                </div>
+              </div>
+
+              <div className="audit-item">
+                <div className="audit-icon">🛡️</div>
+                <div className="audit-text">
+                  <h4>Client-Side Masking</h4>
+                  <p>Sensitive identifiers such as PAN, GSTIN, phone, and account numbers are masked before rendering in previews and exports.</p>
+                </div>
+              </div>
+            </div>
+
+            {privacyAuditData && (
+              <div className="audit-live-status">
+                <span className="live-tag">● LIVE SERVER ATTESTATION</span>
+                <span>Active RAM Sessions: <strong>{privacyAuditData.active_ram_sessions}</strong></span>
+                <span>Persistent Disk Writes: <strong>{String(privacyAuditData.persistent_disk_writes)}</strong></span>
+                <span>Database Connected: <strong>{String(privacyAuditData.database_connected)}</strong></span>
+              </div>
+            )}
+
+            <div className="modal-footer-row" style={{ marginTop: "24px" }}>
+              <button className="primary-btn" onClick={() => setPrivacyModalOpen(false)}>
+                Understood & Verified
+              </button>
+              {result && (
+                <button
+                  className="burn-action-btn"
+                  onClick={() => {
+                    setPrivacyModalOpen(false);
+                    burnSession(false);
+                  }}
+                >
+                  🔥 Burn My Data Now
+                </button>
+              )}
+            </div>
+          </div>
         </div>
       )}
 

@@ -136,3 +136,30 @@ def test_three_sample_files():
         response = client.post(f"/api/sample/{sample}")
         assert response.status_code == 200
         assert response.json()["analysis"]["headline"]
+
+
+def test_purge_session_and_privacy_audit():
+    # 1. Create a session
+    res = client.post("/api/sample/shop")
+    assert res.status_code == 200
+    sid = res.json()["session_id"]
+
+    # 2. Check session exists
+    status_res = client.get(f"/api/session/{sid}")
+    assert status_res.status_code == 200
+    assert status_res.json()["active"] is True
+
+    # 3. Privacy audit endpoint
+    audit_res = client.get("/api/privacy-audit")
+    assert audit_res.status_code == 200
+    assert audit_res.json()["storage_mode"] == "in_memory_ram_only"
+    assert audit_res.json()["persistent_disk_writes"] is False
+
+    # 4. Purge the session
+    purge_res = client.delete(f"/api/session/{sid}")
+    assert purge_res.status_code == 200
+    assert purge_res.json()["status"] == "purged"
+
+    # 5. Verify it is gone from memory
+    gone_res = client.get(f"/api/session/{sid}")
+    assert gone_res.status_code == 404

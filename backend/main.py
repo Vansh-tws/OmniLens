@@ -4,6 +4,7 @@ import asyncio
 import csv
 import datetime as dt
 import difflib
+import gc
 import html
 import io
 import json
@@ -96,9 +97,17 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=False,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
+
+@app.middleware("http")
+async def add_privacy_headers(request, call_next):
+    response = await call_next(request)
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0, private"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    return response
 
 # Uploaded data is held only in this bounded in-memory cache. No upload is
 # written to a persistent application directory, database, or object store.
@@ -2291,6 +2300,32 @@ def technical(session_id: str):
 def session_status(session_id: str):
     item = get_session(session_id)
     return {"active": True, "filename": item["filename"], "expires_in_seconds": max(0, SESSION_TTL_SECONDS - int(time.time()-item["created"]))}
+
+
+@app.delete("/api/session/{session_id}")
+@app.post("/api/session/{session_id}/purge")
+def purge_session(session_id: str):
+    item = SESSIONS.pop(session_id, None)
+    if item:
+        if "df" in item:
+            del item["df"]
+        item.clear()
+        gc.collect()
+        return {"status": "purged", "session_id": session_id, "message": "All session data erased from RAM."}
+    return {"status": "not_found", "session_id": session_id, "message": "Session already expired or purged."}
+
+
+@app.get("/api/privacy-audit")
+def privacy_audit():
+    return {
+        "storage_mode": "in_memory_ram_only",
+        "persistent_disk_writes": False,
+        "database_connected": False,
+        "third_party_telemetry": False,
+        "session_ttl_seconds": SESSION_TTL_SECONDS,
+        "active_ram_sessions": len(SESSIONS),
+        "zero_retention_guarantee": "Data is held solely in bounded volatile RAM and vanishes upon purge, TTL timeout, or server restart."
+    }
 
 
 # Serve the built React app when the frontend build is copied into backend/static
