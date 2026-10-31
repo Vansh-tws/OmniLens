@@ -291,3 +291,13 @@ The user interface features a warm, Starbucks-inspired visual identity:
   - Framework: FastAPI / Python 3.11+
   - Web Service start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
   - Configuration: `render.yaml` with open CORS for the frontend app
+
+## Copyright & License
+
+Copyright © 2026 Vansh Raut. All Rights Reserved.
+
+OmniLens is an original project developed by Vansh Raut.
+
+This repository is publicly available for viewing and recruitment evaluation purposes.
+
+Copying, modifying, redistributing, or commercially using this software requires prior written permission from the copyright holder.
